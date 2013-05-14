@@ -1,0 +1,98 @@
+<DIV>
+<% localRiderData = @globalRiderData%>
+<% riderDataByMilage = localRiderData.sort! { |x, y| y["Distance"] <=> x["Distance"] } %>
+<% riderDataByHours = localRiderData.sort! { |x, y| y["hours"] <=> x["hours"] } %>
+<% riderDataByElevation = localRiderData.sort! { |x, y| y["Elevation"] <=> x["Elevation"] } %>
+
+<table class ="table">
+
+	<thead>  
+          <tr>  
+            <th>Mileage</th>  
+            <th>Hours</th>
+            <th>Elevation</th>    
+          </tr>  
+	</thead> 
+	<tbody>
+
+		<tr>
+			<td>
+			<table class ="table" style = "width: 300px">
+				<thead>  
+			          <tr>  
+			            <th>Rider</th>  
+			            <th>Miles</th>  
+			          </tr>  
+				</thead> 
+				<tbody>
+
+
+				<% riderDataByMilage.each do |rd| %>
+					<tr>
+						<td><%= rd["name"] %></td>
+						<td><%= rd["Distance"] %></td>
+					</tr>
+				<%end%>
+
+
+			    </tbody>  
+			 </table> 
+			</td>
+
+			<td>
+			<table class ="table" style = "width: 300px">
+				<thead>  
+			          <tr>  
+			            <th>Rider</th>  
+			            <th>Hours</th>  
+			          </tr>  
+				</thead> 
+				<tbody>
+
+
+				<% riderDataByHours.each do |rd| %>
+					<tr>
+						<td><%= rd["name"] %></td>
+						<td><%= rd["hours"] %></td>
+					</tr>
+				<%end%>
+
+
+			    </tbody>  
+			 </table> 
+			</td>
+ 			<td>
+			<table class ="table" style = "width: 300px">
+				<thead>  
+			          <tr>  
+			            <th>Rider</th>  
+			            <th>Elevation</th>  
+			          </tr>  
+				</thead> 
+				<tbody>
+
+
+				<% riderDataByElevation.each do |rd| %>
+					<tr>
+						<td><%= rd["name"] %></td>
+						<td><%= rd["Elevation"] %></td>
+					</tr>
+				<%end%>
+
+
+			    </tbody>  
+			 </table> 
+			</td>
+ 		
+
+
+
+ 		</tr>
+
+
+
+</tbody>  
+</table> 
+
+
+</DIV>
