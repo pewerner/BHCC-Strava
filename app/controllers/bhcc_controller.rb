@@ -69,9 +69,9 @@ class BhccController < ApplicationController
 
 	end
 
-	moving_time = moving_time/3600.0
-	elevation_gain = elevation_gain * 3.28084
-	distance = distance * 0.000621371
+	moving_time = (moving_time/3600.0).round(1)
+	elevation_gain = (elevation_gain * 3.28084).round(1)
+	distance = (distance * 0.000621371).round(1)
 	#puts "Rider: #{riderName} Moving Time: #{moving_time} Elevation Gain: #{elevation_gain} Distance: #{distance}"
 
 	riderData.push({ "name" => riderName, "hours" => moving_time,"Elevation" => elevation_gain, "Distance" => distance })
