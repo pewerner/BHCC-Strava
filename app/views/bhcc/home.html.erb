@@ -1,4 +1,4 @@
-<DIV style = " width: 50%; margin: 0 auto;">
+<DIV style = "padding-top:20px; width:1000px; height:200px; margin: 0 auto; overflow-y:scroll;">
 <% riderDataByMilage = @globalRiderData%>
 <% riderDataByHours = @globalRiderData%>
 <% riderDataByElevation = @globalRiderData%>
@@ -10,101 +10,52 @@
 
 <% riderDataByElevation = riderDataByElevation.sort { |x, y| y["Elevation"] <=> x["Elevation"] } %>
 
-<table  style ="width:500px">
 
-	<thead>  
-          <tr>  
-            <th>Mileage</th>  
-            <th>Hours</th>
-            <th>Elevation</th>    
-          </tr>  
-	</thead> 
-	<tbody>
 
-		<tr>
-			<td>
-			<table class ="table table-hover" border ="2" style = "width: 300px">
+			<table class ="table table-hover table-condensed" >
 				<thead>  
-			          <tr>  
+			          <tr> 
+			          	<th>     </th>  
 			            <th>Rider</th>  
 			            <th>Miles</th>
-			            <th>Back</th>   
+			            <th>Back</th> 
+			            <th>     </th>  
+			            <th>Rider</th>  
+			            <th>Hours</th>
+			            <th>Back</th>
+			            <th>     </th>   
+			            <th>Rider</th>  
+			            <th>Elevation</th>
+			            <th>Back</th> 
+			                
 			          </tr>  
 				</thead> 
+
 				<tbody>
 
-
+				<%i= 0%>
 				<% riderDataByMilage.each do |rd| %>
 					<tr>
+						<td> <%=i +1 %></td>
 						<td><%= rd["name"] %></td>
 						<td><%= rd["Distance"] %></td>
 						<td><%= "+ #{ (riderDataByMilage[0]["Distance"] - rd["Distance"]).round(1)}" %></td>
+						<td> <%=i +1 %></td>
+						<td><%= riderDataByHours[i]["name"] %></td>
+						<td><%= riderDataByHours[i]["hours"] %></td>
+						<td><%= "+ #{ (riderDataByHours[0]["hours"] - riderDataByHours[i]["hours"]).round(1)}"%> </td>
+						<td> <%=i +1 %></td>
+						<td><%= riderDataByElevation[i]["name"] %></td>
+						<td><%= riderDataByElevation[i]["Elevation"] %></td>
+						<td><%= "+ #{ (riderDataByElevation[0]["Elevation"] - riderDataByElevation[i]["Elevation"]).round(1)}"%></td> 
+						<%i= i +1 %>
+
 					</tr>
 				<%end%>
 
 
 			    </tbody>  
 			 </table> 
-			</td>
-
-			<td>
-			<table class ="table table-hover" border ="2" style = "width: 300px">
-				<thead>  
-			          <tr>  
-			            <th>Rider</th>  
-			            <th>Hours</th> 
-			            <th>Back</th> 
-			          </tr>  
-				</thead> 
-				<tbody>
-
-
-				<% riderDataByHours.each do |rd| %>
-					<tr>
-						<td><%= rd["name"] %></td>
-						<td><%= rd["hours"] %></td>
-						<td><%= "+ #{ (riderDataByHours[0]["hours"] - rd["hours"]).round(1)}" %></td>
-					</tr>
-				<%end%>
-
-
-			    </tbody>  
-			 </table> 
-			</td>
- 			<td>
-			<table class ="table table-hover" border ="2" style = "width: 300px">
-				<thead>  
-			          <tr>  
-			            <th>Rider</th>  
-			            <th>Elevation</th>
-			            <th>Back</th>   
-			          </tr>  
-				</thead> 
-				<tbody>
-
-
-				<% riderDataByElevation.each do |rd| %>
-					<tr>
-						<td><%= rd["name"] %></td>
-						<td><%= rd["Elevation"] %></td>
-						<td><%= "+ #{ (riderDataByElevation[0]["Elevation"] - rd["Elevation"]).round(1)}" %></td>
-					</tr>
-				<%end%>
-
-
-			    </tbody>  
-			 </table> 
-			</td>
- 		
-
-
-
- 		</tr>
-
-
-
-</tbody>  
-</table> 
 
 
 </DIV>
