@@ -1,8 +1,14 @@
 class BhccController < ApplicationController
 
-	  def home
 
-	  			riderData = []
+def welcome
+end
+	
+	def home
+
+
+
+	  	riderData = []
 		clubMemberArray = []
 		clubtest = []
 		
@@ -15,9 +21,8 @@ class BhccController < ApplicationController
 
 	clubMemberData["members"].each do |member|
 
-		clubMemberArray.push({"MemberID" => member["id"], "MemberName" =>member["name"]})
+	clubMemberArray.push({"MemberID" => member["id"], "MemberName" =>member["name"]})
 
-	
 	
 	end
 

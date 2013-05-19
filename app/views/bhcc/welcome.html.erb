@@ -1,0 +1,22 @@
+<div style = " width:32px; margin: 0 auto; padding-top: 100px">
+ <ul class="thumbnails">
+	
+	<iframe id="myIframe" src="/images/ajax-loader.gif" scrolling="no" frameborder="0" style =" height: 40px;"></iframe>
+</ul>
+</div>
+<div style = " width:200px; margin: 0 auto;">
+ <ul class="thumbnails">
+ 	<h5>Downloading Data From Strava</h5>
+</ul>
+</div>
+
+<script type="text/javascript">
+window.onload = function () {
+
+    $('#myIframe').attr('src', '/images/ajax-loader.gif');
+    	window.location.href = "bhcc/home";
+	$('#myIframe').attr('src', '/images/ajax-loader.gif'); 
+};
+
+
+</script>
