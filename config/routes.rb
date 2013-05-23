@@ -3,6 +3,7 @@ BHCC::Application.routes.draw do
   root :to => 'BHCC#welcome'
 
   get 'bhcc/home'
+  get 'bhcc/May2013'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
