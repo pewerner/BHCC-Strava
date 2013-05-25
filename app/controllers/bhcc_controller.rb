@@ -7,98 +7,123 @@ end
 	def home
 
 
-
 	  	riderData = []
 		clubMemberArray = []
-		clubtest = []
-		
+		#clubtest = []
 
-	url = 'http://www.strava.com/api/v1/clubs/678/members'
+		clubMemberArray = getClubMembers("678")
 
-	response = HTTParty.get url,:format  =>"json"
-
-	clubMemberData = JSON.parse(response)
-
-	clubMemberData["members"].each do |member|
-
-	clubMemberArray.push({"MemberID" => member["id"], "MemberName" =>member["name"]})
-
-	#puts "#{member["id"] member["name"]}"
-	puts member["id"]
-	puts member["name"]
+		mileage = []
+		eleavation = []
+		hours = []
+	
 
 
-	puts
+		clubMemberArray.each do |member|
+
+			memberId = member["MemberID"]
+			riderName = member["MemberName"]
+
+			rideIds = getMemberRides(memberId, '2013-05-01','2013-05-31' )
+
+			riderData.push(getRideData(rideIds, riderName))
+
+		end
+
+
+
+	# store the rider tdata in a global array that can be accessed by the view
+	@globalRiderData = riderData
+
+
+
+ end
+
+
+
+ 	# gets all members of the club name and id and return an array of hashes
+	
+
+	def getClubMembers(club_id)
+
+		clubMemberArray = []
+
+		url = "http://www.strava.com/api/v1/clubs/#{club_id}/members"
+
+		response = HTTParty.get url,:format  =>"json"
+
+		clubMemberData = JSON.parse(response)
+
+		clubMemberData["members"].each do |member|
+
+		clubMemberArray.push({"MemberID" => member["id"], "MemberName" =>member["name"]})
+
+
+		end
+
+
+
+		return clubMemberArray
+
+
 	end
 
+	# get the rides of the member with current ID
 
+	def getMemberRides(member_id, startDate, endDate)
 
-	mileage = []
-	eleavation = []
-	hours = []
 	
 
+		url = "http://app.strava.com/api/v1/rides?athleteId=#{member_id}&startDate=#{startDate}&endData=#{endDate}"
+	
+		rideIds = []
 
-	clubMemberArray.each do |member|
-
+		response = HTTParty.get url,:format  =>"json"
 		
-	memberId = member["MemberID"]
-	riderName = member["MemberName"]
-
-	url = "http://app.strava.com/api/v1/rides?athleteId=#{memberId}&startDate=2013-05-01"
-	
-	rideIds = []
-
-
-
-	response = HTTParty.get url,:format  =>"json"
-	ridedata = JSON.parse(response)
-
-
-	
-	ridedata["rides"].each do |ride|
-
+		ridedata = JSON.parse(response)
 		
-		rideIds.push(ride["id"])
+		ridedata["rides"].each do |ride|
+
+			rideIds.push(ride["id"])
+		end
+
+		return rideIds
+
 
 	end
 
-	moving_time = 0;
-	elevation_gain = 0
-	distance = 0
+	# Takes an array of ride ids and requests all ride informtion
+	def getRideData(ride_ids, rider_name)
 
-					rideIds.each do |ride|
+		moving_time = 0;
+		elevation_gain = 0
+		distance = 0
 
-				
-
-				
-
-						url = "http://www.strava.com/api/v2/rides/#{ride}"
-						response = HTTParty.get url,:format  =>"json"
-						ridedata = JSON.parse(response)
+		ride_ids.each do |ride|
+			
+			url = "http://www.strava.com/api/v2/rides/#{ride}"
 						
-						moving_time = moving_time + Integer(ridedata["ride"]["moving_time"])
+			response = HTTParty.get url,:format  =>"json"
 						
-						elevation_gain =  elevation_gain + Integer(ridedata["ride"]["elevation_gain"])
+			ridedata = JSON.parse(response)
+						
+			moving_time = moving_time + Integer(ridedata["ride"]["moving_time"])
+						
+			elevation_gain =  elevation_gain + Integer(ridedata["ride"]["elevation_gain"])
 
-						distance = distance + Integer(ridedata["ride"]["distance"])
+			distance = distance + Integer(ridedata["ride"]["distance"])
 
 
-					end
+		end
 
 	moving_time = (moving_time/3600.0).round(1)
 	elevation_gain = (elevation_gain * 3.28084).round(1)
 	distance = (distance * 0.000621371).round(1)
-	#puts "Rider: #{riderName} Moving Time: #{moving_time} Elevation Gain: #{elevation_gain} Distance: #{distance}"
+		
+	riderData = { "name" => rider_name, "hours" => moving_time,"Elevation" => elevation_gain, "Distance" => distance }
 
-	riderData.push({ "name" => riderName, "hours" => moving_time,"Elevation" => elevation_gain, "Distance" => distance })
+	return riderData
 
+	end
 
-end
-
-	#puts riderData
-
-	#puts riderData
-	@globalRiderData = riderData
- end
 end
