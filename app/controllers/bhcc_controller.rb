@@ -95,14 +95,10 @@ end
 	# Takes an array of ride ids and requests all ride informtion
 	def getRideData(ride_ids, rider_name, rider_id)
 
+		
 		moving_time = 0;
 		elevation_gain = 0
 		distance = 0
-
-
-
-
-
 
 		ride_ids.each do |ride|
 
@@ -116,7 +112,7 @@ end
 				url = "http://www.strava.com/api/v2/rides/#{ride}"
 						
 				response = HTTParty.get url,:format  =>"json"
-						
+
 				ridedata = JSON.parse(response)
 						
 				moving_time = moving_time + Integer(ridedata["ride"]["moving_time"])
@@ -130,10 +126,10 @@ end
 
 					r.ride_id = ride
 					r.rider_id = rider_id
-					r.distance = distance
+					r.distance = Integer(ridedata["ride"]["distance"])
 					r.rider_name = rider_name
-					r.moving_time = moving_time
-					r.elevation_gain = elevation_gain
+					r.moving_time = Integer(ridedata["ride"]["moving_time"])
+					r.elevation_gain = Integer(ridedata["ride"]["elevation_gain"])
 
 				end
 
@@ -142,10 +138,13 @@ end
 				
 				  	r = Rides.find(:first, :conditions => [ "ride_id = ?", ride])
 					
-					moving_time = r.moving_time
-					elevation_gain = r.elevation_gain
-					distance = r.distance
+					moving_time = moving_time + r.moving_time 
+					elevation_gain = elevation_gain + r.elevation_gain
+					distance = distance +  r.distance
 
+					
+
+					
 
 			end
 
@@ -158,6 +157,9 @@ end
 	moving_time = (moving_time/3600.0).round(1)
 	elevation_gain = (elevation_gain * 3.28084).round(1)
 	distance = (distance * 0.000621371).round(1)
+	
+	#require 'debugger'; debugger
+
 
 
 	riderData = { "name" => rider_name, "hours" => moving_time,"Elevation" => elevation_gain, "Distance" => distance }
