@@ -13,7 +13,6 @@ end
 		clubtest = []
 		
 
-
 	url = 'http://www.strava.com/api/v1/clubs/678/members'
 
 	response = HTTParty.get url,:format  =>"json"
@@ -24,7 +23,12 @@ end
 
 	clubMemberArray.push({"MemberID" => member["id"], "MemberName" =>member["name"]})
 
-	
+	#puts "#{member["id"] member["name"]}"
+	puts member["id"]
+	puts member["name"]
+
+
+	puts
 	end
 
 
