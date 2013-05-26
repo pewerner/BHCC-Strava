@@ -134,8 +134,11 @@ end
 				end
 
 				rides.save
+			
+			# if the Ride alredy exists look it up in the Database instead of sending a web request	
 			else
 				
+
 				  	r = Rides.find(:first, :conditions => [ "ride_id = ?", ride])
 					
 					moving_time = moving_time + r.moving_time 
