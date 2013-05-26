@@ -11,10 +11,11 @@
 // GO AFTER THE REQUIRES BELOW.
 //
 //= require jquery
+//=require bootstrap
+
 //= require jquery_ujs
 //= require_tree .
-//= require bootstrap-tooltip
-//= require bootstrap-popover
+
 $(function () {
 $('.popover-test').popover();
 });

@@ -14,8 +14,7 @@
 
 <% riderDataByElevation = riderDataByElevation.sort { |x, y| y["Elevation"] <=> x["Elevation"] } %>
 
-<button class="popover-test" id="button1" data-content="Popover Content">
-    <%= 'ciao' %>
+ <div class="span3" style="padding-top: 6px;" id = "playerSelect" rel="popover" > <input type="text" class="playerTypeAhead"  />
 </button>
 
 			<table class ="table table-hover table-condensed;" >
@@ -72,5 +71,5 @@
  
 <script type="text/javascript">
 
-$('.label-with-popover').popover(placement: 'right') 
+$('#playerSelect').popover({placement: "bottom",  content: "Start Typing to select a player ", trigger:"hover"});
 </script> 
