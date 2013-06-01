@@ -4,6 +4,7 @@ BHCC::Application.routes.draw do
 
   get 'bhcc/home'
   get 'bhcc/May2013'
+  get 'bhcc/getLastRide'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

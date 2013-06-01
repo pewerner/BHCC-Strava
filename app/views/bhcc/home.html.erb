@@ -14,8 +14,6 @@
 
 <% riderDataByElevation = riderDataByElevation.sort { |x, y| y["Elevation"] <=> x["Elevation"] } %>
 
- <div class="span3" style="padding-top: 6px;" id = "playerSelect" rel="popover" > <input type="text" class="playerTypeAhead"  />
-</button>
 
 			<table class ="table table-hover table-condensed;" >
 				<thead>  
@@ -42,7 +40,7 @@
 				<% riderDataByMilage.each do |rd| %>
 					<tr>
 						<td> <%=i +1 %></td>
-						<td><%= rd["name"] %></td>
+						<div ><td  ><div class="playerTypeAhead" rel="popover" data-original-title="<%=rd["name"]%>"><%= rd["name"] %></div></td>
 						<td><%= rd["Distance"] %></td>
 						<td><%= "+ #{ (riderDataByMilage[0]["Distance"] - rd["Distance"]).round(1)}" %></td>
 						<td> <%=i +1 %></td>
@@ -68,8 +66,56 @@
 
 </div>
 
- 
-<script type="text/javascript">
+      <!-- your popup hidden content -->
+      <div id="popover_content_wrapper" style="display: none">
 
-$('#playerSelect').popover({placement: "bottom",  content: "Start Typing to select a player ", trigger:"hover"});
+      	This is my content
+ </div>
+      </div>
+        
+      <hr>
+
+      <footer>
+        <p>&copy; Company 2012</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+ 
+
+<script type="text/javascript">
+/*
+
+//$('.playerTypeAhead').popover({placement: "left",  content: "Start Typing to select a player ", trigger:"hover"});
+$('.playerTypeAhead').popover({placement: "left", html: true,  trigger:"hover", 
+	content: function(){
+
+
+ $.ajax({
+  
+      url: 'getLastRide',
+      type: 'get'//,
+     // context: this,
+     // dataType: 'JSON'
+      //,data: dtorails
+     // ,
+     // success: function(responseData) {
+      
+      //}
+    });
+
+ 
+
+ // }
+
+
+
+//width="1025" height="225"
+		return $('#popover_content_wrapper').html();
+
+
+}})
+*/
+
+
 </script> 

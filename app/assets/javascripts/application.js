@@ -16,6 +16,8 @@
 //= require jquery_ujs
 //= require_tree .
 
-$(function () {
-$('.popover-test').popover();
+$(function(){
+
+
+
 });
