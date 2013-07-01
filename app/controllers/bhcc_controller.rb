@@ -24,7 +24,7 @@ end
 			memberId = member["MemberID"]
 			riderName = member["MemberName"]
 
-			rideIds = getMemberRides(memberId, '2013-06-01','2013-06-30' )
+			rideIds = getMemberRides(memberId, '2013-07-01','2013-07-31' )
 
 			riderData.push(getRideData(rideIds, riderName, memberId))
 
