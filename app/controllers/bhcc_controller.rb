@@ -1,5 +1,5 @@
 class BhccController < ApplicationController
-
+include BhccHelper
 
 def welcome
 end
@@ -11,7 +11,7 @@ end
 		clubMemberArray = []
 		#clubtest = []
 
-		clubMemberArray = getClubMembers("678")
+		#clubMemberArray = getClubMembers("678")
 
 		mileage = []
 		eleavation = []
@@ -24,9 +24,10 @@ end
 			memberId = member["MemberID"]
 			riderName = member["MemberName"]
 
-			rideIds = getMemberRides(memberId, '2013-07-01','2013-07-31' )
+			#rideIds = getMemberRides(memberId, '2013-07-01','2013-07-31' )
 
-			riderData.push(getRideData(rideIds, riderName, memberId))
+			#riderData.push(getRideData(rideIds, riderName, memberId))
+			riderData.push(getRideData())
 
 		end
 
@@ -39,6 +40,19 @@ end
 
  end
 
+def leaderboard
+		@token = at()
+		@accessRoad = leaderBoard("this_year", "574991", "678")
+		@barnburner = leaderBoard("this_year", "4041153", "678")
+
+
+
+
+end
+
+
+
+
 
 
  	# gets all members of the club name and id and return an array of hashes
@@ -48,7 +62,12 @@ end
 
 		clubMemberArray = []
 
-		url = "http://www.strava.com/api/v1/clubs/#{club_id}/members"
+		# This URL is from the old API
+		#url = "http://www.strava.com/api/v1/clubs/#{club_id}/members"
+
+		#This is URL is the new one
+		url = "https://www.strava.com/api/v3/clubs/678/activities?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce"
+
 
 		response = HTTParty.get url,:format  =>"json"
 
@@ -74,8 +93,9 @@ end
 
 	#"http://app.strava.com/api/v1/rides?athleteId=1824936&startDate=2013-05-01&endData=2013-05-31
 
-		url = "http://app.strava.com/api/v1/rides?athleteId=#{member_id}&startDate=#{startDate}&endData=#{endDate}"
+		#url = "http://app.strava.com/api/v1/rides?athleteId=#{member_id}&startDate=#{startDate}&endData=#{endDate}"
 	
+		url ="https://www.strava.com/api/v3/#{member_id}/activities"
 		rideIds = []
 
 		response = HTTParty.get url,:format  =>"json"
@@ -95,6 +115,10 @@ end
 
 
 	end
+
+
+
+
 
 	# Takes an array of ride ids and requests all ride informtion
 	def getRideData(ride_ids, rider_name, rider_id)
