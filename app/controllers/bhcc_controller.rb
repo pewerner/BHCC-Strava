@@ -96,6 +96,8 @@ end
 		#url = "http://app.strava.com/api/v1/rides?athleteId=#{member_id}&startDate=#{startDate}&endData=#{endDate}"
 	
 		url ="https://www.strava.com/api/v3/#{member_id}/activities"
+
+		#  https://www.strava.com/api/v3/1824936/activities?access_token=7b6c5063a17bf91ccb1ed2a2612db96212d54ec8"
 		rideIds = []
 
 		response = HTTParty.get url,:format  =>"json"
