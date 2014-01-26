@@ -1,7 +1,10 @@
 BHCC::Application.routes.draw do
 
+  resources :bhcc_accesses
+
  # root :to => 'BHCC#welcome'
-  root :to => 'test_app#testhome'
+  #root :to => 'test_app#testhome'
+  root :to => 'bhcc_accesses#index'
   get 'bhcc/home'
   get 'bhcc/leaderboard'
   get 'bhcc/May2013'
