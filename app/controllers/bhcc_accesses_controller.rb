@@ -2,6 +2,13 @@ class BhccAccessesController < ApplicationController
   # GET /bhcc_accesses
   # GET /bhcc_accesses.json
   def index
+
+    @myParams = params[:code] 
+
+    @response = HTTParty.post("https://www.strava.com/oauth/token",
+      :query => { :client_id => "177", :client_secret=> "ef771e84b333761f8cdf75b70be82aa396862e5e",:code => params[:code] })
+    
+
     @bhcc_accesses = BhccAccess.all
 
     respond_to do |format|
