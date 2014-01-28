@@ -29,7 +29,7 @@ class RideDataController < ApplicationController
     ridedata.each do |ride|
     
   
-      if !RideDatum.exists?(:ride_id => String(ride["id"])
+      if !RideDatum.exists?(:ride_id => String(ride["id"]))
           
           rides =RideDatum.new do |r|
 
