@@ -1,6 +1,6 @@
 class DropDataTable < ActiveRecord::Migration
   def up
-    drop_table :ride_data
+    #drop_table :ride_data
   end
 
   def down
