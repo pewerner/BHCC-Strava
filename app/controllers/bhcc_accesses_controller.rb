@@ -12,18 +12,18 @@ class BhccAccessesController < ApplicationController
 
     myParams = params[:code] 
 
-    #response = HTTParty.post("https://www.strava.com/oauth/token",
-      #:query => { :client_id => "177", :client_secret=> "ef771e84b333761f8cdf75b70be82aa396862e5e",:code => params[:code] })
+    response = HTTParty.post("https://www.strava.com/oauth/token",
+      :query => { :client_id => "177", :client_secret=> "ef771e84b333761f8cdf75b70be82aa396862e5e",:code => params[:code] })
 
     
 
-    access_token = 'ed8f4919f42c9d737cf4a314b7867cd7cddc55ce'
+    #access_token = 'ed8f4919f42c9d737cf4a314b7867cd7cddc55ce'
     
     
 
 
 
-    #access_token = response["access_token"]
+    access_token = response["access_token"]
 
    if BhccAccess.exists?(:token => access_token)
 
