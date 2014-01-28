@@ -1,0 +1,75 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Ride:</b>
+  <%= @ride_datum.ride_id %>
+</p>
+
+<p>
+  <b>Athlete:</b>
+  <%= @ride_datum.athlete_id %>
+</p>
+
+<p>
+  <b>Distance:</b>
+  <%= @ride_datum.distance %>
+</p>
+
+<p>
+  <b>Moving time:</b>
+  <%= @ride_datum.moving_time %>
+</p>
+
+<p>
+  <b>Total elevation gain:</b>
+  <%= @ride_datum.total_elevation_gain %>
+</p>
+
+<p>
+  <b>Start date:</b>
+  <%= @ride_datum.start_date %>
+</p>
+
+<p>
+  <b>Location city:</b>
+  <%= @ride_datum.location_city %>
+</p>
+
+<p>
+  <b>Trainer:</b>
+  <%= @ride_datum.trainer %>
+</p>
+
+<p>
+  <b>Average speed:</b>
+  <%= @ride_datum.average_speed %>
+</p>
+
+<p>
+  <b>Max speed:</b>
+  <%= @ride_datum.max_speed %>
+</p>
+
+<p>
+  <b>Calories:</b>
+  <%= @ride_datum.calories %>
+</p>
+
+<p>
+  <b>Total work:</b>
+  <%= @ride_datum.total_work %>
+</p>
+
+<p>
+  <b>Max power:</b>
+  <%= @ride_datum.max_power %>
+</p>
+
+<p>
+  <b>Avg power:</b>
+  <%= @ride_datum.avg_power %>
+</p>
+
+
+<%= link_to 'Edit', edit_ride_datum_path(@ride_datum) %> |
+<%= link_to 'Back', ride_data_path %>

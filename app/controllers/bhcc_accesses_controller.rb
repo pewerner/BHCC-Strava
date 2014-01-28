@@ -3,12 +3,57 @@ class BhccAccessesController < ApplicationController
   # GET /bhcc_accesses.json
   def index
 
-    @myParams = params[:code] 
-
-    @response = HTTParty.post("https://www.strava.com/oauth/token",
-      :query => { :client_id => "177", :client_secret=> "ef771e84b333761f8cdf75b70be82aa396862e5e",:code => params[:code] })
     
-    #@result = JSON.parse(@response)
+    
+
+    online_mode = 0
+
+
+
+    myParams = params[:code] 
+
+    #response = HTTParty.post("https://www.strava.com/oauth/token",
+      #:query => { :client_id => "177", :client_secret=> "ef771e84b333761f8cdf75b70be82aa396862e5e",:code => params[:code] })
+
+    
+
+    access_token = 'ed8f4919f42c9d737cf4a314b7867cd7cddc55ce'
+    
+    
+
+
+
+    #access_token = response["access_token"]
+
+   if BhccAccess.exists?(:token => access_token)
+
+      puts "This token is already registered"
+
+    else
+    
+    url = "https://www.strava.com/api/v3/athlete?access_token=#{access_token}"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    user = JSON.parse(user_response)
+
+    firstname = user["firstname"]
+    lastname = user["lastname"]
+    fullname = "#{firstname} #{lastname}"
+    athlete_id = user["id"]
+
+
+    # add access token to database
+    token =BhccAccess.new do |t|
+
+          t.token = access_token
+          t.username = fullname
+          t.userid = athlete_id
+
+        end
+
+        token.save
+    
+   end
 
     @bhcc_accesses = BhccAccess.all
 

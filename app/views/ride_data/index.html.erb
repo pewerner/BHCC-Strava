@@ -1,0 +1,49 @@
+<h1>Listing ride_data</h1>
+
+<table>
+  <tr>
+    <th>Ride</th>
+    <th>Athlete</th>
+    <th>Distance</th>
+    <th>Moving time</th>
+    <th>Total elevation gain</th>
+    <th>Start date</th>
+    <th>Location city</th>
+    <th>Trainer</th>
+    <th>Average speed</th>
+    <th>Max speed</th>
+    <th>Calories</th>
+    <th>Total work</th>
+    <th>Max power</th>
+    <th>Avg power</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @ride_data.each do |ride_datum| %>
+  <tr>
+    <td><%= ride_datum.ride_id %></td>
+    <td><%= ride_datum.athlete_id %></td>
+    <td><%= ride_datum.distance %></td>
+    <td><%= ride_datum.moving_time %></td>
+    <td><%= ride_datum.total_elevation_gain %></td>
+    <td><%= ride_datum.start_date %></td>
+    <td><%= ride_datum.location_city %></td>
+    <td><%= ride_datum.trainer %></td>
+    <td><%= ride_datum.average_speed %></td>
+    <td><%= ride_datum.max_speed %></td>
+    <td><%= ride_datum.calories %></td>
+    <td><%= ride_datum.total_work %></td>
+    <td><%= ride_datum.max_power %></td>
+    <td><%= ride_datum.avg_power %></td>
+    <td><%= link_to 'Show', ride_datum %></td>
+    <td><%= link_to 'Edit', edit_ride_datum_path(ride_datum) %></td>
+    <td><%= link_to 'Destroy', ride_datum, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Ride datum', new_ride_datum_path %>

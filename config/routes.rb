@@ -1,5 +1,7 @@
 BHCC::Application.routes.draw do
 
+  resources :ride_data
+
   resources :bhcc_accesses
 
  # root :to => 'BHCC#welcome'
