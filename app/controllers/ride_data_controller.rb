@@ -29,7 +29,7 @@ class RideDataController < ApplicationController
     ridedata.each do |ride|
     
   
-      if !RideDatum.exists?(:ride_id => ride["id"])
+      if !RideDatum.exists?(:ride_id => String(ride["id"])
           
           rides =RideDatum.new do |r|
 
@@ -41,7 +41,7 @@ class RideDataController < ApplicationController
             r.max_power = Float(checkifValid(ride["max_power"]))
             r.max_speed = Float(checkifValid(ride["max_speed"]))
             r.moving_time = Float(checkifValid(ride["moving_time"]))
-            r.ride_id = ride["id"]
+            r.ride_id = String(ride["id"])
             r.start_date = ride["start_date"]
             r.total_elevation_gain = ride["total_elevation_gain"]
             r.total_work = Float(checkifValid(ride["kilojoules"]))
