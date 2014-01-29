@@ -14,6 +14,8 @@ class BhccAccessesController < ApplicationController
 
     @at = access_token
 
+  if (access_token != nil)
+
    if BhccAccess.exists?(:token => access_token)
 
       puts "This token is already registered"
@@ -43,6 +45,7 @@ class BhccAccessesController < ApplicationController
         token.save
     
    end
+ end
 
     @bhcc_accesses = BhccAccess.all
 

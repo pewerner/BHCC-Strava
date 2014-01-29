@@ -28,9 +28,10 @@ class RideDataController < ApplicationController
 
     ridedata.each do |ride|
     
-  
+    puts token.token
+ 
       if !RideDatum.exists?(:ride_id => String(ride["id"]))
-          
+           puts ride["id"]
           rides =RideDatum.new do |r|
 
             r.athlete_id = Integer(checkifValid(ride["athlete"]["id"]))  
