@@ -12,6 +12,8 @@ class BhccAccessesController < ApplicationController
 
     access_token = response["access_token"]
 
+    @at = access_token
+
    if BhccAccess.exists?(:token => access_token)
 
       puts "This token is already registered"
