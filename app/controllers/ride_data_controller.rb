@@ -47,6 +47,7 @@ class RideDataController < ApplicationController
             r.total_work = Float(checkifValid(ride["kilojoules"]))
             r.trainer = ride["trainer"]
             r.username = token.username
+            r.distance = Float(checkifValid(ride["distance"]))
             
         end
 
