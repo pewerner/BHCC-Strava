@@ -17,6 +17,8 @@ class RideDataController < ApplicationController
 
   def index
 
+   
+
     #get loop through rider credentials data base
     BhccAccess.find(:all).each do |token|
 

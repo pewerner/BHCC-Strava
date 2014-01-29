@@ -14,7 +14,10 @@ def home
 	eleavation = []
 	hours = []
 	
-	BhccAccess.destroy(3);
+	
+	
+
+	
 	#get all registerd member ids and user names		
 	BhccAccess.find(:all).each  do |member|
 
