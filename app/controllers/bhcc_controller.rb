@@ -47,9 +47,14 @@ def getRideData(rider_name, rider_id)
 
 	ridedata = RideDatum.where(:athlete_id => Integer(rider_id))
 
+	ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-02-01 00:00:00', '2014-02-28:23:59:00'])
+	puts "This is a test"
+
+	puts ridedata1
 
 
-	ridedata.each do |r|
+
+	ridedata1.each do |r|
 
 		puts "Match"
 		moving_time = moving_time + r.moving_time 

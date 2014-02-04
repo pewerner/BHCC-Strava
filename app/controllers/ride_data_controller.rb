@@ -45,7 +45,11 @@ class RideDataController < ApplicationController
             r.max_speed = Float(checkifValid(ride["max_speed"]))
             r.moving_time = Float(checkifValid(ride["moving_time"]))
             r.ride_id = String(ride["id"])
-            r.start_date = ride["start_date"]
+
+        
+
+            r.start_date =  ride["start_date_local"]  
+            
             r.total_elevation_gain = ride["total_elevation_gain"]
             r.total_work = Float(checkifValid(ride["kilojoules"]))
             r.trainer = ride["trainer"]
