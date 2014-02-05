@@ -159,6 +159,7 @@
 			        </tr>  
 				</thead> 
 				<tbody><% @unquity["entries"].each_with_index do |entries, index| %>
+					<% if index < 10 %>
 				    <tr>
     				    <td style="width:100px"><%= entries["athlete_name"] %></td>
     				    <% total_seconds = entries["elapsed_time"]
@@ -170,6 +171,7 @@
 					    <td><%= entries["start_date_local"] %></td>
 					     <td><%= 10 - index%></td>
 					</tr>
+					<%end%>
                      <%end%></tbody>
 
             </table>
