@@ -1,92 +1,178 @@
-<div class = "row"style ="display: table; margin:0 auto;">
-	<div class ="span5 well" >
-
-
-<% accessRoadLeaderBoard = @accessRoad %>
-
-			<table class ="table table-hover table-condensed;" style="width:100px" >
-				<thead>  
-			          <tr > 
-			          	
-			            <th><h2>Rank</h2></th>  
-			            <th style="padding-left:30px;"><h2>Rider</h2></th>
-			            <th></th>
-			            <th ><h2>Time</h2></th>
-			          </tr>  
+<div>
+    <div class = "row" style = "width:1000px; margin: 0 auto;">
+	    <div class = "span4">
+	    <h2>Access Road</h2>
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>    
+			        </tr>  
 				</thead> 
+				<tbody><% @accessRoadData["entries"].each_with_index do |entries, index| %>
+				    
+					<% athlete_id = entries["athlete_name"] %>
+					<% athlete_points = "#{athlete_id}_points" %>
 
-				<tbody>
-				<% accessRoadLeaderBoard.each do |lb| %>
-						<tr >
-								<% profile = lb["athlete_profile"]%>
-								<% picstring = "#{profile}?#{@token}"
+				    <tr class ="<%=athlete_points%>">
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td><%= entries["start_date_local"] %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
+					</tr>
+                     <%end%></tbody>
 
-									puts @token
-								%>
-
-								<td ><h3><%= lb["rank"]%></h3></td>
-								<td>
-								<img src="<%=picstring%>" height="50" width = "50"/></td>
-								<td><%= lb["athlete_name"]%></td>
-								<td ><%= lb["elapsed_time"]%></td>
-
-						</tr>
-					
-				<% end %>
-
-
-
-
-
-
-				</tbody>
-
-				</table>
-
-	</div>
-		<div class ="span5 well" >
-
-
-<% holeShotLeaderBoard = @barnburner %>
-
-			<table class ="table table-hover table-condensed;" style="width:100px" >
-				<thead>  
-			          <tr > 
-			          	
-			            <th><h2>Rank</h2></th>  
-			            <th style="padding-left:30px;"><h2>Rider</h2></th>
-			            <th></th>
-			            <th ><h2>Time</h2></th>
-			          </tr>  
+            </table>
+        </div>
+        <div class = "span4">
+        <h2>Hemenway</h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>  
+			        </tr>  
 				</thead> 
+				<tbody><% @hemenwayData["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
 
-				<tbody>
-				<% holeShotLeaderBoard.each do |lb| %>
-						<tr >
-								<% profile = lb["athlete_profile"]%>
-								<% picstring = "#{profile}?#{@token}"
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td><%= entries["start_date_local"] %></td>
+					    <td><%= 10 - (index * 10) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
 
-									puts @token
-								%>
+            </table>
+        </div>
+        <div class = "span4">
+        <h2>Backside</h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @backside["entries"].each_with_index do |entries, index| %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td><%= entries["start_date_local"] %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
+					</tr>
+                     <%end%></tbody>
 
-								<td ><h3><%= lb["rank"]%></h3></td>
-								<td>
-								<img src="<%=picstring%>" height="50" width = "50"/></td>
-								<td><%= lb["athlete_name"]%></td>
-								<td ><%= lb["elapsed_time"]%></td>
+            </table>
+        </div>        
+    </div>
+<div class = "row" style = "width:1000px; margin: 0 auto;">
+	    <div class = "span4">
+	    <h2>Ricciuti Drive</h2>
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+				<tbody><% @ricciuti["entries"].each_with_index do |entries, index| %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td><%= entries["start_date_local"] %></td>
+					    <td><%= 10- (index * 10) %></td>
+					</tr>
+                     <%end%></tbody>
 
-						</tr>
-					
-				<% end %>
+            </table>
+        </div>
+        <div class = "span4">
+        <h2>Purgatory</h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>  
+			        </tr>  
+				</thead> 
+				<tbody><% @purgatory["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
 
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td><%= entries["start_date_local"] %></td>
+					    <td><%= 10 - index%></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
 
+            </table>
+        </div>
+        <div class = "span4">
+        <h2>Unquity</h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th> 
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @unquity["entries"].each_with_index do |entries, index| %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td><%= entries["start_date_local"] %></td>
+					     <td><%= 10 - index%></td>
+					</tr>
+                     <%end%></tbody>
 
-
-
-
-				</tbody>
-
-				</table>
-
-	</div>
+            </table>
+        </div>        
+    </div>    
 </div>

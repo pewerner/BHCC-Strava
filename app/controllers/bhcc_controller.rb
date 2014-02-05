@@ -48,11 +48,6 @@ def getRideData(rider_name, rider_id)
 	ridedata = RideDatum.where(:athlete_id => Integer(rider_id))
 
 	ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-02-01 00:00:00', '2014-02-28:23:59:00'])
-	puts "This is a test"
-
-	puts ridedata1
-
-
 
 	ridedata1.each do |r|
 
@@ -74,5 +69,49 @@ def getRideData(rider_name, rider_id)
 return riderData
 
 end
+
+
+def leaderboard()
+
+
+	#access road	
+
+    url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @accessRoadData = JSON.parse(user_response)
+
+
+    url = "https://www.strava.com/api/v3/segments/1297700/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @hemenwayData = JSON.parse(user_response)
+
+    url = "https://www.strava.com/api/v3/segments/1418768/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @backside = JSON.parse(user_response)
+
+    url = "https://www.strava.com/api/v3/segments/1030272/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @ricciuti = JSON.parse(user_response)
+
+    url = "https://www.strava.com/api/v3/segments/639422/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @purgatory = JSON.parse(user_response)
+    630626
+
+    url = "https://www.strava.com/api/v3/segments/630626/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @unquity = JSON.parse(user_response)
+
+
+
+end
+
+
 
 end
