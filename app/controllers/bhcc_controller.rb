@@ -96,13 +96,22 @@ def leaderboard()
 
 	mensData = []
 	womensData = []
+	dirtData = []
+
 
 	@accessRoadPointValue = 15
 	@hemenwayDataPointValue = 10
 	@backsideDataPointValue = 15
 	@ricciutiDataPointValue = 10
-	@buck_hillDataPointValue = 15
+	@chickatawbutDataPointValue = 15
 	@unquityDataPointValue = 10	
+
+
+	@summitrdDataPointValue = 15
+	@gaslineDataPointValue = 15
+	@yellowjacketDataPointValue = 15
+	@buck_hillDataPointValue = 15
+	@catwalkDataPointValue = 15
 
 
     url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
@@ -164,18 +173,18 @@ def leaderboard()
     @ricciutiFemale = JSON.parse(user_response)
     womensData = storeData(@ricciutiFemale, @ricciutiDataPointValue, womensData)
 
-    url = "https://www.strava.com/api/v3/segments/5599090/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/628440/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
     user_response = HTTParty.get url,:format  =>"json"
 
-    @buck_hill = JSON.parse(user_response)
+    @chickatawbut  = JSON.parse(user_response)
 
-    mensData = storeData(@buck_hill, @buck_hillDataPointValue, mensData)
+    mensData = storeData(@chickatawbut, @chickatawbutDataPointValue , mensData)
 
-    url = "https://www.strava.com/api/v3/segments/5599090/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F"
+    url = "https://www.strava.com/api/v3/segments/628440/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F"
     user_response = HTTParty.get url,:format  =>"json"
 
-    @buck_hillFemale = JSON.parse(user_response)
-    womensData = storeData(@buck_hillFemale, @buck_hillDataPointValue, womensData)
+    @chickatawbutFemale = JSON.parse(user_response)
+    womensData = storeData(@chickatawbutFemale, @chickatawbutDataPointValue, womensData)
 
     url = "https://www.strava.com/api/v3/segments/630626/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
     user_response = HTTParty.get url,:format  =>"json"
@@ -189,9 +198,53 @@ def leaderboard()
     @unquityFemale = JSON.parse(user_response)
     womensData = storeData(@unquityFemale, @unquityDataPointValue, womensData)
 
+
+    #dirt Data
+
+    url = "https://www.strava.com/api/v3/segments/1246804/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @summitrd = JSON.parse(user_response)
+    dirtData = storeData(@summitrd, @summitrdDataPointValue, dirtData) 
+
+    url = "https://www.strava.com/api/v3/segments/1362469/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @gasline = JSON.parse(user_response)
+    dirtData = storeData(@gasline, @gaslineDataPointValue, dirtData)
+
+
+
+    url = "https://www.strava.com/api/v3/segments/4508329/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @yellowjacket = JSON.parse(user_response)
+    dirtData = storeData(@yellowjacket, @yellowjacketDataPointValue, dirtData)
+
+
+    url = "https://www.strava.com/api/v3/segments/5599090/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @buck_hill = JSON.parse(user_response)
+
+    dirtData = storeData(@buck_hill, @buck_hillDataPointValue, dirtData)
+
+    url = "https://www.strava.com/api/v3/segments/2954643/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @catwalk = JSON.parse(user_response)
+
+    dirtData = storeData(@catwalk, @catwalkDataPointValue, dirtData)  
+
+
+
+
+
     @mens_leaders = generateRiderResults(mensData)
     
     @womens_leaders = generateRiderResults(womensData)
+
+    @dirt_leaders = generateRiderResults(dirtData)
 
 
 
