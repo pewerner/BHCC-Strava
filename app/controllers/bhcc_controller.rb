@@ -192,6 +192,32 @@ def leaderboard()
     @mens_leaders = generateRiderResults(mensData)
     
     @womens_leaders = generateRiderResults(womensData)
+
+
+
+    riderData = []
+	clubMemberArray = []
+
+	mileage = []
+	eleavation = []
+	hours = []
+	
+	
+	
+
+	
+	#get all registerd member ids and user names		
+	BhccAccess.find(:all).each  do |member|
+
+		memberId = member.userid
+		riderName = member.username
+
+		riderData.push(getRideData(riderName, memberId))
+
+	end
+
+	# store the rider tdata in a global array that can be accessed by the view
+	@globalRiderData = riderData
 		
 
 end

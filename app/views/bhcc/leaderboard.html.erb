@@ -10,15 +10,14 @@
   <li class="active"><a data-toggle="tab" href="#leaderboard">Overall Leaders</a></li>
   <li><a data-toggle="tab" href="#mens">Men's Points</a></li>
   <li><a  data-toggle="tab"href="#womens">Women's Points</a></li>
-  
+  <li><a  data-toggle="tab"href="#monthly">Monthly Challenge</a></li> 
 </ul>
 
 </div>
 
- <div id="my-tab-content" class="tab-content">
+<div id="my-tab-content" class="tab-content">
 <div class="tab-pane active" id="leaderboard">
-
-    <div class = "row" style = "width:1200px; margin: 0 auto;">
+	 <div class = "row" style = "width:1200px; margin: 0 auto;">
 	    <div class = "span5">
 
 	      <h2>King of the Blue Hills</h2>
@@ -33,7 +32,7 @@
 
 
 				<tbody><%   @mens_leaders.each_with_index do |entries, index| %>
-				    
+
 
 				    <tr>
     				    <td style="width:100px"><%= entries["name"] %></td>
@@ -61,7 +60,7 @@
 
 
 				<tbody><%    @womens_leaders.each_with_index do |entries, index| %>
-				    
+
 
 				    <tr>
     				    <td style="width:100px"><%= entries["name"] %></td>
@@ -76,16 +75,6 @@
 	    </div>
 
 	</div>    
-
-
-
-
-
-
-
-
-
-
 
 
 </div>
@@ -117,7 +106,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					    <td><%= @accessRoadPointValue - (index * @accessRoadPointValue/10.to_f) %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
 					</tr>
                      <%end%></tbody>
 
@@ -146,7 +135,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					    <td><%= @hemenwayDataPointValue - (index * @hemenwayDataPointValue/10.to_f) %></td>
+					    <td><%= 10 - (index) %></td>
 					</tr>
 					<%end%>
                      <%end%></tbody>
@@ -174,7 +163,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					    <td><%= @backsideDataPointValue - (index * @backsideDataPointValue/10.to_f) %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
 					</tr>
                      <%end%></tbody>
 
@@ -203,7 +192,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					    <td><%= @ricciutiDataPointValue - (index * @ricciutiDataPointValue/10.to_f) %></td>
+					    <td><%= 10- (index ) %></td>
 					</tr>
                      <%end%></tbody>
 
@@ -233,7 +222,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"> <%= entries["start_date_local"] %></td>
-					    <td><%= @buck_hillDataPointValue - (index * @buck_hillDataPointValue/10.to_f) %></td>
+					    <td><%= 10 - index%></td>
 					</tr>
 					<%end%>
                      <%end%></tbody>
@@ -262,7 +251,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					     <td><%= @unquityDataPointValue - (index * @unquityDataPointValue/10.to_f) %></td>
+					     <td><%= 10 - index%></td>
 					</tr>
 					<%end%>
                      <%end%></tbody>
@@ -304,7 +293,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					    <td><%= @accessRoadDataPointValue - (index * @accessRoadDataPointValue/10.to_f) %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
 					</tr>
                      <%end%></tbody>
 
@@ -333,7 +322,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					     <td><%= @hemenwayDataPointValue - (index * @hemenwayDataPointValue/10.to_f) %></td>
+					    <td><%= 10 - (index) %></td>
 					</tr>
 					<%end%>
                      <%end%></tbody>
@@ -361,7 +350,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					    <td><%= @backsideDataPointValue - (index * @backsideDataPointValue/10.to_f) %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
 					</tr>
                      <%end%></tbody>
 
@@ -390,7 +379,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					    <td><%= @ricciutiDataPointValue - (index * @ricciutiDataPointValue/10.to_f) %></td>
+					    <td><%= 10- (index ) %></td>
 					</tr>
                      <%end%></tbody>
 
@@ -420,7 +409,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"> <%= entries["start_date_local"] %></td>
-					    <td><%= @buck_hillDataPointValue - (index * @buck_hillDataPointValue/10.to_f) %></td>
+					    <td><%= 10 - index%></td>
 					</tr>
 					<%end%>
                      <%end%></tbody>
@@ -449,7 +438,7 @@
 						   total_seconds = format("%02d:%02d", minutes, seconds) %>
 					    <td><%= total_seconds %></td>
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
-					     <td><%= @unquityDataPointValue - (index * @unquityDataPointValue/10.to_f) %></td>
+					     <td><%= 10 - index%></td>
 					</tr>
 					<%end%>
                      <%end%></tbody>
@@ -458,6 +447,72 @@
         </div>        
     </div> 
     </div>
+     <div class="tab-pane" id="monthly">
+
+<div style = " width:1200px; margin: 0 auto;">
+     <% riderDataByMilage = @globalRiderData%>
+<% riderDataByHours = @globalRiderData%>
+<% riderDataByElevation = @globalRiderData%>
+
+
+<% riderDataByMilage = riderDataByMilage.sort { |x, y| y["Distance"] <=> x["Distance"] } %>
+
+<% riderDataByHours = riderDataByHours.sort { |x, y| y["hours"] <=> x["hours"] } %>
+
+<% riderDataByElevation = riderDataByElevation.sort { |x, y| y["Elevation"] <=> x["Elevation"] } %>
+
+
+			<table class ="table table-hover table-condensed;" >
+				<thead>  
+			          <tr> 
+			          	<th>     </th>  
+			            <th>Rider</th>  
+			            <th>Miles</th>
+			            <th>Back</th> 
+			            <th>     </th>  
+			            <th>Rider</th>  
+			            <th>Hours</th>
+			            <th>Back</th>
+			            <th>     </th>   
+			            <th>Rider</th>  
+			            <th>Elevation</th>
+			            <th>Back</th> 
+			                
+			          </tr>  
+				</thead> 
+
+				<tbody>
+
+				<%i= 0%>
+				<% riderDataByMilage.each do |rd| %>
+					<tr>
+						<td> <%=i +1 %></td>
+						<div ><td  ><div class="playerTypeAhead" rel="popover" data-original-title="<%=rd["name"]%>"><%= rd["name"] %></div></td>
+						<td><%= rd["Distance"] %></td>
+						<td><%= "+ #{ (riderDataByMilage[0]["Distance"] - rd["Distance"]).round(1)}" %></td>
+						<td> <%=i +1 %></td>
+						<td><%= riderDataByHours[i]["name"] %></td>
+						<td><%= riderDataByHours[i]["hours"] %></td>
+						<td><%= "+ #{ (riderDataByHours[0]["hours"] - riderDataByHours[i]["hours"]).round(1)}"%> </td>
+						<td> <%=i +1 %></td>
+						<td><%= riderDataByElevation[i]["name"] %></td>
+						<td><%= riderDataByElevation[i]["Elevation"] %></td>
+						<td><%= "+ #{ (riderDataByElevation[0]["Elevation"] - riderDataByElevation[i]["Elevation"]).round(1)}"%></td> 
+						<%i= i +1 %>
+
+					</tr>
+				<%end%>
+
+
+			    </tbody>  
+			 </table> 
+
+
+</DIV>
+
+</div>
+</div>
+     </div>
 </div>
 </div>
 
