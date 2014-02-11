@@ -271,7 +271,15 @@ def leaderboard()
 
 	# store the rider tdata in a global array that can be accessed by the view
 	@globalRiderData = riderData
-		
+
+	date_updated = RideDatum.last()
+
+	puts "date"
+	puts date_updated.updated_at 
+
+	@time_updated =  date_updated.updated_at
+	puts 	@time_updated.in_time_zone('Eastern Time (US & Canada)')
+
 
 end
 
