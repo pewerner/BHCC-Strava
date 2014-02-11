@@ -114,7 +114,7 @@ def leaderboard()
 	@catwalkDataPointValue = 15
 
 
-    url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @accessRoadData = JSON.parse(user_response)
@@ -123,13 +123,13 @@ def leaderboard()
 
 
 
-    url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F"
+    url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @accessRoadDataFemale = JSON.parse(user_response)
     womensData = storeData(@accessRoadDataFemale, @accessRoadPointValue, womensData)
 
-    url = "https://www.strava.com/api/v3/segments/1297700/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/1297700/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @hemenwayData = JSON.parse(user_response)
@@ -140,59 +140,59 @@ def leaderboard()
 
 	#mensData = storeData(@hemenwayData, @hemenwayDataPointValue, mensData)
 
-    url = "https://www.strava.com/api/v3/segments/1297700/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F"
+    url = "https://www.strava.com/api/v3/segments/1297700/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @hemenwayDataFemale = JSON.parse(user_response)
  	womensData = storeData(@hemenwayDataFemale, @hemenwayDataPointValue, womensData)
 
 
-    url = "https://www.strava.com/api/v3/segments/1418768/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/1418768/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @backside = JSON.parse(user_response)
 
     mensData = storeData(@backside, @backsideDataPointValue, mensData)
 
-    url = "https://www.strava.com/api/v3/segments/1418768/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F"
+    url = "https://www.strava.com/api/v3/segments/1418768/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @backsideFemale = JSON.parse(user_response)
     womensData = storeData(@backsideFemale, @backsideDataPointValue, womensData)
 
-    url = "https://www.strava.com/api/v3/segments/1030272/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/1030272/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @ricciuti = JSON.parse(user_response)
 
     mensData = storeData(@ricciuti, @ricciutiDataPointValue, mensData)
 
-    url = "https://www.strava.com/api/v3/segments/1030272/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F"
+    url = "https://www.strava.com/api/v3/segments/1030272/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @ricciutiFemale = JSON.parse(user_response)
     womensData = storeData(@ricciutiFemale, @ricciutiDataPointValue, womensData)
 
-    url = "https://www.strava.com/api/v3/segments/628440/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/628440/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @chickatawbut  = JSON.parse(user_response)
 
     mensData = storeData(@chickatawbut, @chickatawbutDataPointValue , mensData)
 
-    url = "https://www.strava.com/api/v3/segments/628440/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F"
+    url = "https://www.strava.com/api/v3/segments/628440/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @chickatawbutFemale = JSON.parse(user_response)
     womensData = storeData(@chickatawbutFemale, @chickatawbutDataPointValue, womensData)
 
-    url = "https://www.strava.com/api/v3/segments/630626/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/630626/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @unquity = JSON.parse(user_response)
     mensData = storeData(@unquity, @unquityDataPointValue, mensData)
 
-    url = "https://www.strava.com/api/v3/segments/630626/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F"
+    url = "https://www.strava.com/api/v3/segments/630626/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @unquityFemale = JSON.parse(user_response)
@@ -201,13 +201,13 @@ def leaderboard()
 
     #dirt Data
 
-    url = "https://www.strava.com/api/v3/segments/1246804/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/1246804/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @summitrd = JSON.parse(user_response)
     dirtData = storeData(@summitrd, @summitrdDataPointValue, dirtData) 
 
-    url = "https://www.strava.com/api/v3/segments/1362469/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/1362469/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @gasline = JSON.parse(user_response)
@@ -215,21 +215,21 @@ def leaderboard()
 
 
 
-    url = "https://www.strava.com/api/v3/segments/4508329/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/4508329/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @yellowjacket = JSON.parse(user_response)
     dirtData = storeData(@yellowjacket, @yellowjacketDataPointValue, dirtData)
 
 
-    url = "https://www.strava.com/api/v3/segments/5599090/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/5599090/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @buck_hill = JSON.parse(user_response)
 
     dirtData = storeData(@buck_hill, @buck_hillDataPointValue, dirtData)
 
-    url = "https://www.strava.com/api/v3/segments/2954643/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678"
+    url = "https://www.strava.com/api/v3/segments/2954643/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @catwalk = JSON.parse(user_response)
