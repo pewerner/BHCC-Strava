@@ -15,7 +15,19 @@
     <%= f.label :token %><br />
     <%= f.text_field :token %>
   </div>
+    <div class="field">
+    <%= f.label :username %><br />
+    <%= f.text_field :username %>
+  </div>
+      <div class="field">
+    <%= f.label :userid %><br />
+    <%= f.text_field :userid %>
+  </div>
   <div class="actions">
     <%= f.submit %>
   </div>
+<% end %>
+<%= form_for @bhcc_access, :method => :delete do |f| %>   
+  <%= f.label :username %><br />  
+  <%= submit_tag "Delete Record" %> 
 <% end %>
