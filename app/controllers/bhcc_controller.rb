@@ -3,7 +3,7 @@ include BhccHelper
 
 def welcome
 end
-	
+		
 def home
 
 
@@ -47,7 +47,7 @@ def getRideData(rider_name, rider_id)
 
 	ridedata = RideDatum.where(:athlete_id => Integer(rider_id))
 
-	ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-04-01 00:00:00', '2014-04-30:23:59:00'])
+	ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-05-01 00:00:00', '2014-05-31:23:59:00'])
 
 	ridedata1.each do |r|
 
