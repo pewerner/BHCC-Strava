@@ -182,6 +182,7 @@
 			        </tr>  
 				</thead> 
 				<tbody><% @backside["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
 				    <tr>
     				    <td style="width:100px"><%= entries["athlete_name"] %></td>
     				    <% total_seconds = entries["elapsed_time"]
@@ -193,6 +194,7 @@
 					    <td style="width:100px"><%= entries["start_date_local"] %></td>
 					    <td><%= 15 - (index * 1.5) %></td>
 					</tr>
+					<%end%>
                      <%end%></tbody>
 
             </table>
