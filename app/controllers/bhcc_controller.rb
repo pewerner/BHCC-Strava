@@ -48,7 +48,7 @@ def getRideData(rider_name, rider_id)
 	ridedata = RideDatum.where(:athlete_id => Integer(rider_id))
 
 	#ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-8-01 00:00:00', '2014-8-31:23:59:00'])
-	ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-1-01 00:00:00', '2014-9-31:23:59:00'])
+	ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-9-01 00:00:00', '2014-9-31:23:59:00'])
 
 	ridedata1.each do |r|
 
