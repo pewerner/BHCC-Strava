@@ -135,8 +135,10 @@ class RideDataController < ApplicationController
   # DELETE /ride_data/1
   # DELETE /ride_data/1.json
   def destroy
-    @ride_datum = RideDatum.find(params[:id])
-    @ride_datum.destroy
+    #@ride_datum = RideDatum.find(params[:id])
+    #@ride_datum.destroy
+
+    @ride_datum = RideDatum.delete_all
 
     respond_to do |format|
       format.html { redirect_to ride_data_url }
