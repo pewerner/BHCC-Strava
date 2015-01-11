@@ -630,7 +630,54 @@
                      <%end%></tbody>
 
             </table>
-        </div>        
+        </div> 
+
+
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/8656082" target="_blank">Buck - The Hard Way</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th> 
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @buckHardWay["entries"].each_with_index do |entries, index| %>
+					<% if index < 10 %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					       <td><%= @buckHardWayDataPointValue - (index * @buckHardWayDataPointValue/10.to_f) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </div> 
    
 

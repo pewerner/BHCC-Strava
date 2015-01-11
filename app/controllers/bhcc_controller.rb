@@ -113,6 +113,7 @@ def leaderboard()
 	@yellowjacketDataPointValue = 15
 	@buck_hillDataPointValue = 15
 	@catwalkDataPointValue = 15
+	@buckHardWayDataPointValue = 18
 
 
     url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
@@ -236,6 +237,16 @@ def leaderboard()
     @catwalk = JSON.parse(user_response)
 
     dirtData = storeData(@catwalk, @catwalkDataPointValue, dirtData)  
+
+    url = "https://www.strava.com/api/v3/segments/8656082/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
+    user_response = HTTParty.get url,:format  =>"json"
+
+    @buckHardWay = JSON.parse(user_response)
+
+    dirtData = storeData(@buckHardWay, @buckHardWayDataPointValue, dirtData)  
+
+    
+
 
 
 
