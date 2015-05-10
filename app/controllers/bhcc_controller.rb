@@ -273,7 +273,7 @@ def leaderboard()
 	
 	#get all registerd member ids and user names		
 	BhccAccess.find(:all).each  do |member|
-
+    puts "Finding Data"
 		memberId = member.userid
 		riderName = member.username
 
