@@ -79,6 +79,48 @@ return riderData
 end
 
 
+	def getRideDataAjax(rider_name, rider_id, start_date_search, end_date_search )
+
+
+		moving_time = 0;
+		elevation_gain = 0
+		distance = 0
+		puts "this is the rider_id #{rider_id}"
+
+		puts "looking for the data bro"
+		ridedata = RideDatum.where(:athlete_id => Integer(rider_id))
+		puts ridedata
+
+		#ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-10-01 00:00:00', '2014-10-31:23:59:00'])
+		#ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2015-5-01 00:00:00', '2015-5-31:23:59:00'])
+
+		start_date_search = start_date_search.to_time
+		end_date_search = end_date_search.to_time
+
+
+		ridedata1 = ridedata.find(:all, :conditions => {:start_date => start_date_search.beginning_of_day..end_date_search.end_of_day})
+
+		ridedata1.each do |r|
+
+			puts "Found the ride Data bro!!"
+			moving_time = moving_time + r.moving_time
+			elevation_gain = elevation_gain + r.total_elevation_gain
+			distance = distance +  r.distance
+
+		end
+
+
+		moving_time = (moving_time/3600.0).round(1)
+		elevation_gain = (elevation_gain * 3.28084).round(1)
+		distance = (distance * 0.000621371).round(1)
+
+
+		riderData = { "name" => rider_name, "hours" => moving_time,"Elevation" => elevation_gain, "Distance" => distance }
+
+		return riderData
+
+	end
+
 def storeData(requestedData, dpv, inputArray)
 
 	    requestedData["entries"].each_with_index do |entries, index|
@@ -339,6 +381,50 @@ def generateRiderResults(rider_data )
 
 end
 
+	def testMethod
 
+
+		riderData = []
+		clubMemberArray = []
+
+		mileage = []
+		eleavation = []
+		hours = []
+
+
+
+
+
+		#get all registerd member ids and user names
+		BhccAccess.find(:all).each  do |member|
+
+			memberId = member.userid
+			riderName = member.username
+
+			riderData.push(getRideDataAjax(riderName, memberId, params[:start_date], params[:end_date]))
+
+		end
+
+		# store the rider tdata in a global array that can be accessed by the view
+		@grd= riderData
+
+		puts "D--------------------------------------------d"
+		puts params[:docName]
+		puts @grd
+
+
+		#render :nothing => true
+		puts "here is thd data"
+		#puts @globalRiderData
+
+		respond_to do |format|
+			format.json {render json: @grd}
+		end
+    return @grd
+
+
+	end
 
 end
+
+
