@@ -44,15 +44,22 @@ def getRideData(rider_name, rider_id)
 	distance = 0
 	puts "this is the rider_id #{rider_id}"
 
-
+	puts "looking for the data bro"
 	ridedata = RideDatum.where(:athlete_id => Integer(rider_id))
+	puts ridedata
 
 	#ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2014-10-01 00:00:00', '2014-10-31:23:59:00'])
-	ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2015-5-01 00:00:00', '2015-5-31:23:59:00'])
+	#ridedata1 = ridedata.find(:all, :conditions =>["date(start_date) BETWEEN ? AND ? ", '2015-5-01 00:00:00', '2015-5-31:23:59:00'])
+
+	start_date_search = '2015-5-01'.to_time
+	end_date_search = '2015-5-31'.to_time
+
+
+	ridedata1 = ridedata.find(:all, :conditions => {:start_date => start_date_search.beginning_of_day..end_date_search.end_of_day})
 
 	ridedata1.each do |r|
 
-		puts "Match"
+		puts "Found the ride Data bro!!"
 		moving_time = moving_time + r.moving_time 
 		elevation_gain = elevation_gain + r.total_elevation_gain
 		distance = distance +  r.distance
