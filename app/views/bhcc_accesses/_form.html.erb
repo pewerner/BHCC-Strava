@@ -1,0 +1,33 @@
+<%= form_for(@bhcc_access) do |f| %>
+  <% if @bhcc_access.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@bhcc_access.errors.count, "error") %> prohibited this bhcc_access from being saved:</h2>
+
+      <ul>
+      <% @bhcc_access.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :token %><br />
+    <%= f.text_field :token %>
+  </div>
+    <div class="field">
+    <%= f.label :username %><br />
+    <%= f.text_field :username %>
+  </div>
+      <div class="field">
+    <%= f.label :userid %><br />
+    <%= f.text_field :userid %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+<%= form_for @bhcc_access, :method => :delete do |f| %>   
+  <%= f.label :username %><br />  
+  <%= submit_tag "Delete Record" %> 
+<% end %>

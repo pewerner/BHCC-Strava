@@ -11,7 +11,35 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130525121410) do
+ActiveRecord::Schema.define(:version => 20140131115909) do
+
+  create_table "bhcc_accesses", :force => true do |t|
+    t.string   "token"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+    t.string   "username"
+    t.string   "userid"
+  end
+
+  create_table "ride_data", :force => true do |t|
+    t.string   "ride_id"
+    t.integer  "athlete_id"
+    t.float    "distance"
+    t.float    "moving_time"
+    t.float    "total_elevation_gain"
+    t.datetime "start_date",           :limit => 255
+    t.string   "location_city"
+    t.string   "trainer"
+    t.float    "average_speed"
+    t.float    "max_speed"
+    t.float    "calories"
+    t.float    "total_work"
+    t.float    "max_power"
+    t.float    "avg_power"
+    t.datetime "created_at",                          :null => false
+    t.datetime "updated_at",                          :null => false
+    t.string   "username"
+  end
 
   create_table "rides", :force => true do |t|
     t.integer  "ride_id"

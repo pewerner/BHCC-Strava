@@ -1,9 +1,18 @@
 BHCC::Application.routes.draw do
 
-  root :to => 'BHCC#welcome'
+  resources :ride_data
 
+  resources :bhcc_accesses
+
+ # root :to => 'BHCC#welcome'
+  #root :to => 'test_app#testhome'
+  root :to => 'bhcc_accesses#index'
   get 'bhcc/home'
+  get 'bhcc/leaderboard'
   get 'bhcc/May2013'
+  get 'bhcc/June2013'
+  get 'bhcc/getLastRide'
+  #get 'test_app/testhome'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

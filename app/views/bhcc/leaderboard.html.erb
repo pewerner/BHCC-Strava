@@ -1,0 +1,765 @@
+<script type="text/javascript">
+    jQuery(document).ready(function ($) {
+        $('#myTab').tab();
+
+    
+    });
+</script>  <div>
+<div class = "row" style = "width:1200px; margin: 0 auto;">
+<ul id ="myTab" class="nav nav-tabs" data-tabs="myTab">
+  <li class="active"><a data-toggle="tab" href="#leaderboard">Overall Leaders</a></li>
+  <li><a data-toggle="tab" href="#mens">Men's Points</a></li>
+  <li><a  data-toggle="tab"href="#womens">Women's Points</a></li>
+  <li><a  data-toggle="tab"href="#dirt">Dirt</a></li> 
+  <li><a  data-toggle="tab"href="#monthly">Monthly Challenge</a></li> 
+</ul>
+
+</div>
+
+<div id="my-tab-content" class="tab-content">
+<div class="tab-pane active" id="leaderboard">
+	 <div class = "row" style = "width:1200px; margin: 0 auto;">
+	    <div class = "span5">
+
+	      <h2>King of the Blue Hills</h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+
+
+				<tbody><%   @mens_leaders.each_with_index do |entries, index| %>
+
+
+				    <tr>
+    				    <td style="width:100px"><%= entries["name"] %></td>
+  
+					    <td><%= entries["points"] %></td>
+
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+
+	    </div>
+
+	    <div class = "span5">
+
+	      <h2>Queen of the Blue Hills</h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+
+
+				<tbody><%    @womens_leaders.each_with_index do |entries, index| %>
+
+
+				    <tr>
+    				    <td style="width:100px"><%= entries["name"] %></td>
+  
+					    <td><%= entries["points"] %></td>
+
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+
+	    </div>
+	   	<div class = "span5">
+
+	      <h2>Goat of the Blue Hills</h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+
+
+				<tbody><%    @dirt_leaders.each_with_index do |entries, index| %>
+
+
+				    <tr>
+    				    <td style="width:100px"><%= entries["name"] %></td>
+  
+					    <td><%= entries["points"] %></td>
+
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+
+	    </div> 
+
+	</div>    
+
+
+</div>
+ <div class="tab-pane" id="mens">
+    <div class = "row" style = "width:1200px; margin: 0 auto;">
+	    <div class = "span5">
+	    <h2><a href="http://www.strava.com/segments/663022" target="_blank">Access Road</a></h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+				<tbody><% @accessRoadData["entries"].each_with_index do |entries, index| %>
+				    
+					<% athlete_id = entries["athlete_name"] %>
+					<% athlete_points = "#{athlete_id}_points" %>
+
+				    <tr class ="<%=athlete_points%>">
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/1297700" target="_blank">Hemenway</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>  
+			        </tr>  
+				</thead> 
+				<tbody><% @hemenwayData["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
+
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= 10 - (index) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/1418768" target="_blank">Backside</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @backside["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>        
+    </div>
+<div class = "row" style = "width:1200px; margin: 0 auto;">
+	    <div class = "span5">
+	    <h2><a href="http://www.strava.com/segments/1030272" target="_blank">Ricciuti Drive</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+				<tbody><% @ricciuti["entries"].each_with_index do |entries, index| %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= 10- (index ) %></td>
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/628440?filter=overall" target="_blank">Chickatawbut</a></h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>  
+			        </tr>  
+				</thead> 
+				<tbody><% @chickatawbut["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
+
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"> <%= entries["start_date_local"] %></td>
+					    <td><%= 10 - index%></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/630626?filter=overall" target="_blank">Unquity</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th> 
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @unquity["entries"].each_with_index do |entries, index| %>
+					<% if index < 10 %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					     <td><%= 10 - index%></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>        
+    </div> 
+   
+    </div>  
+
+    <div class="tab-pane" id="womens">
+    	
+
+
+    	   <div class = "row" style = "width:1200px; margin: 0 auto;">
+	    <div class = "span5">
+	    <h2><a href="http://www.strava.com/segments/663022" target="_blank">Access Road</a></h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+				<tbody><% @accessRoadDataFemale["entries"].each_with_index do |entries, index| %>
+				    
+					<% athlete_id = entries["athlete_name"] %>
+					<% athlete_points = "#{athlete_id}_points" %>
+
+				    <tr class ="<%=athlete_points%>">
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/1297700" target="_blank">Hemenway</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>  
+			        </tr>  
+				</thead> 
+				<tbody><% @hemenwayDataFemale["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
+
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= 10 - (index) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/1418768" target="_blank">Backside</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @backsideFemale["entries"].each_with_index do |entries, index| %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= 15 - (index * 1.5) %></td>
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+        </div>        
+    </div>
+<div class = "row" style = "width:1200px; margin: 0 auto;">
+	    <div class = "span5">
+	    <h2><a href="http://www.strava.com/segments/1030272" target="_blank">Ricciuti Drive</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+				<tbody><% @ricciutiFemale["entries"].each_with_index do |entries, index| %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= 10- (index ) %></td>
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/628440?filter=overall" target="_blank">Chickatawbut</a></h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>  
+			        </tr>  
+				</thead> 
+				<tbody><% @chickatawbutFemale["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
+
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"> <%= entries["start_date_local"] %></td>
+					    <td><%= 10 - index%></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/630626?filter=overall" target="_blank">Unquity</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th> 
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @unquityFemale["entries"].each_with_index do |entries, index| %>
+					<% if index < 10 %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					     <td><%= 10 - index%></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>        
+    </div> 
+    </div>
+<div class="tab-pane" id="dirt">
+	
+<div class = "row" style = "width:1200px; margin: 0 auto;">
+	    <div class = "span5">
+	    <h2><a href="http://www.strava.com/segments/1246804" target="_blank">Summit Road</a></h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px" >
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>    
+			        </tr>  
+				</thead> 
+				<tbody><% @summitrd["entries"].each_with_index do |entries, index| %>
+				    
+					<% athlete_id = entries["athlete_name"] %>
+					<% athlete_points = "#{athlete_id}_points" %>
+
+				    <tr class ="<%=athlete_points%>">
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= @summitrdDataPointValue - (index * @summitrdDataPointValue/10.to_f) %></td>
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/1362469" target="_blank">Gas Line</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>  
+			        </tr>  
+				</thead> 
+				<tbody><% @gasline["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
+
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= @gaslineDataPointValue - (index * @gaslineDataPointValue/10.to_f) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/4508329" target="_blank">Yellow Jacket Stinger</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @yellowjacket["entries"].each_with_index do |entries, index| %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					    <td><%= @yellowjacketDataPointValue - (index * @yellowjacketDataPointValue/10.to_f) %></td>
+					</tr>
+                     <%end%></tbody>
+
+            </table>
+        </div>        
+    </div>
+<div class = "row" style = "width:1200px; margin: 0 auto;">
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/5599090" target="_blank">Buck Hill</a></h2>
+
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th>
+			            <th>Points</th>  
+			        </tr>  
+				</thead> 
+				<tbody><% @buck_hill["entries"].each_with_index do |entries, index| %>
+				<% if index < 10 %>
+				    <tr>
+
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"> <%= entries["start_date_local"] %></td>
+					    <td><%= @buck_hillDataPointValue - (index * @buck_hillDataPointValue/10.to_f) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div>
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/2954643" target="_blank">Climb to the Catwalk</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th> 
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @catwalk["entries"].each_with_index do |entries, index| %>
+					<% if index < 10 %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					       <td><%= @catwalkDataPointValue - (index * @catwalkDataPointValue/10.to_f) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div> 
+
+
+        <div class = "span5">
+        <h2><a href="http://www.strava.com/segments/8656082" target="_blank">Buck - The Hard Way</a></h2>
+            <table class ="table table-hover table-condensed;" style="width:300px">
+	            <thead>  
+			        <tr> 
+			            <th>Rider</th>  
+			            <th>Time</th>
+			            <th>Date</th> 
+			            <th>Points</th>   
+			        </tr>  
+				</thead> 
+				<tbody><% @buckHardWay["entries"].each_with_index do |entries, index| %>
+					<% if index < 10 %>
+				    <tr>
+    				    <td style="width:100px"><%= entries["athlete_name"] %></td>
+    				    <% total_seconds = entries["elapsed_time"]
+    					   seconds = total_seconds % 60
+						   minutes = (total_seconds / 60) % 60
+						   hours = total_seconds / (60 * 60)
+						   total_seconds = format("%02d:%02d", minutes, seconds) %>
+					    <td><%= total_seconds %></td>
+					    <td style="width:100px"><%= entries["start_date_local"] %></td>
+					       <td><%= @buckHardWayDataPointValue - (index * @buckHardWayDataPointValue/10.to_f) %></td>
+					</tr>
+					<%end%>
+                     <%end%></tbody>
+
+            </table>
+        </div> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div> 
+   
+
+
+
+
+
+
+
+</div>
+
+
+
+
+
+     <div class="tab-pane" id="monthly">
+
+<div style = " width:1200px; margin: 0 auto;">
+     <% riderDataByMilage = @globalRiderData%>
+<% riderDataByHours = @globalRiderData%>
+<% riderDataByElevation = @globalRiderData%>
+
+
+<% riderDataByMilage = riderDataByMilage.sort { |x, y| y["Distance"] <=> x["Distance"] } %>
+
+<% riderDataByHours = riderDataByHours.sort { |x, y| y["hours"] <=> x["hours"] } %>
+
+<% riderDataByElevation = riderDataByElevation.sort { |x, y| y["Elevation"] <=> x["Elevation"] } %>
+
+<h5>Mileage, Hours and Elevation Data will be updated periodically. Last Update: <%= @time_updated.in_time_zone('Eastern Time (US & Canada)')%></h5>
+<h5></h5>
+			<table class ="table table-hover table-condensed;" >
+				<thead>  
+			          <tr> 
+			          	<th>     </th>  
+			            <th>Rider</th>  
+			            <th>Miles</th>
+			            <th>Back</th> 
+			            <th>     </th>  
+			            <th>Rider</th>  
+			            <th>Hours</th>
+			            <th>Back</th>
+			            <th>     </th>   
+			            <th>Rider</th>  
+			            <th>Elevation</th>
+			            <th>Back</th> 
+			                
+			          </tr>  
+				</thead> 
+
+				<tbody>
+
+				<%i= 0%>
+				<% riderDataByMilage.each do |rd| %>
+					<tr>
+						<td> <%=i +1 %></td>
+						<div ><td  ><div class="playerTypeAhead" rel="popover" data-original-title="<%=rd["name"]%>"><%= rd["name"] %></div></td>
+						<td><%= rd["Distance"] %></td>
+						<td><%= "+ #{ (riderDataByMilage[0]["Distance"] - rd["Distance"]).round(1)}" %></td>
+						<td> <%=i +1 %></td>
+						<td><%= riderDataByHours[i]["name"] %></td>
+						<td><%= riderDataByHours[i]["hours"] %></td>
+						<td><%= "+ #{ (riderDataByHours[0]["hours"] - riderDataByHours[i]["hours"]).round(1)}"%> </td>
+						<td> <%=i +1 %></td>
+						<td><%= riderDataByElevation[i]["name"] %></td>
+						<td><%= riderDataByElevation[i]["Elevation"] %></td>
+						<td><%= "+ #{ (riderDataByElevation[0]["Elevation"] - riderDataByElevation[i]["Elevation"]).round(1)}"%></td> 
+						<%i= i +1 %>
+
+					</tr>
+				<%end%>
+
+
+			    </tbody>  
+			 </table> 
+
+
+</DIV>
+
+</div>
+</div>
+     </div>
+</div>
+</div>
+

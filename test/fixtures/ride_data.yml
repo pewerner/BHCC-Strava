@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  ride_id: MyString
+  athlete_id: 1
+  distance: 1.5
+  moving_time: 1.5
+  total_elevation_gain: 1.5
+  start_date: MyString
+  location_city: MyString
+  trainer: MyString
+  average_speed: 1.5
+  max_speed: 1.5
+  calories: 1.5
+  total_work: 1.5
+  max_power: 1.5
+  avg_power: 1.5
+
+two:
+  ride_id: MyString
+  athlete_id: 1
+  distance: 1.5
+  moving_time: 1.5
+  total_elevation_gain: 1.5
+  start_date: MyString
+  location_city: MyString
+  trainer: MyString
+  average_speed: 1.5
+  max_speed: 1.5
+  calories: 1.5
+  total_work: 1.5
+  max_power: 1.5
+  avg_power: 1.5
