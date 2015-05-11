@@ -10,8 +10,17 @@ var bhcccApp = angular.module('bhccAPP', [], function() {
 bhcccApp.controller('StravaData', function($scope, $http) {
 
 
-    $scope.start_date = "2015-05-01";
-    $scope.end_date = "2015-05-30"
+    //-- Set the Default dates for Start and end date to the first and last day of the current month
+
+    var date = new Date();
+    var firstDay = new Date(date.getFullYear(), date.getMonth(), 1);
+    var lastDay = new Date(date.getFullYear(), date.getMonth() + 1, 0);
+
+
+
+
+    $scope.start_date = firstDay.toISOString().substring(0, 10);
+    $scope.end_date = lastDay.toISOString().substring(0, 10);
 
 
     requestRiderData();

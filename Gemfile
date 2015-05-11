@@ -28,7 +28,7 @@ end
 gem 'jquery-rails'
 gem 'httparty'
 gem 'ngannotate-rails'
-
+gem 'jquery-ui-rails'
 
 
 group :production do
