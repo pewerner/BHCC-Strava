@@ -37,8 +37,8 @@
       <file leaf-file-name="leaderboard.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/bhcc/leaderboard.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25965664">
-              <caret line="736" column="16" selection-start-line="736" selection-start-column="16" selection-end-line="736" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.694206">
+              <caret line="780" column="33" selection-start-line="780" selection-start-column="33" selection-end-line="780" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -651,7 +651,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32422000" />
+    <option name="totallyTimeSpent" value="32519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2201" y="167" width="1600" height="1053" extended-state="0" />
@@ -1073,8 +1073,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/bhcc/leaderboard.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25965664">
-          <caret line="736" column="16" selection-start-line="736" selection-start-column="16" selection-end-line="736" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.694206">
+          <caret line="780" column="33" selection-start-line="780" selection-start-column="33" selection-end-line="780" selection-end-column="33" />
           <folding />
         </state>
       </provider>
