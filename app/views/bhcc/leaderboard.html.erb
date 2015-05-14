@@ -5,9 +5,6 @@
     
     });
 
-
-
-
 </script>
 
 <div style ="background-color:#333; height:35px; margin-top:85px;"></div>
@@ -19,21 +16,23 @@
 
 <div class="navbar">
 
-	<div class="navbar-inner" style="padding-top:-50px; ">
+	<div  class ="navbar-inner" style="padding-top:-50px; ">
 
-		<div class ="row" style ="display: table; margin:0 auto; >
-			<div class ="span10">
-				<ul id = "myTab" class="nav"  style ="padding-top-20px;" data-tabs="myTab">
-					<li style="font-family: Tahoma, Verdana, Segoe, sans-serif;"><a id ="home" href="/"data-current-page="home">Home</a></li>
-					<li class="active"><a data-toggle="tab" href="#leaderboard">Overall Leaders</a></li>
-					<li><a data-toggle="tab" href="#mens">Men's Points</a></li>
-					<li><a  data-toggle="tab"href="#womens">Women's Points</a></li>
-					<li><a  data-toggle="tab"href="#dirt">Dirt</a></li>
-					<li><a  data-toggle="tab"href="#monthly">Monthly Challenge</a></li>
-				</ul>
-			</div>
-		</div>
-</div>
+	    <div class ="row" style ="display: table; margin:0 auto; >
+	        <div class ="span10">
+	            <ul id = "myTab" class="nav"  style ="padding-top-20px;" data-tabs="myTab">
+	            	<li class="active"><a data-toggle="tab" href="#leaderboard">Overall Leaders</a></li>
+	            	<li><a data-toggle="tab" href="#mens">Men's Points</a></li>
+	            	<li><a  data-toggle="tab"href="#womens">Women's Points</a></li>
+	            	<li><a  data-toggle="tab"href="#dirt">Dirt</a></li>
+	            	<li><a  data-toggle="tab"href="#monthly">Monthly Challenge</a></li>
+	            </ul>
+            </div>
+        </div>
+
+
+<div class = "row" style="display:table; margin:0 auto; padding-top:15px;">
+	<div class="span10 well" style="width:742px; ">
 
 <div  ng-controller="StravaData">
 
@@ -69,57 +68,66 @@
     	    </div>
 
     	    <div class = "span5">
+				<div class ="row">
+					<div class = "span5">
+						<h2>Queen of the Blue Hills</h2>
 
-    	      <h2>Queen of the Blue Hills</h2>
-
-    	        <table class ="table table-hover table-condensed;" style="width:300px" >
-    	            <thead>
-    			        <tr>
-    			            <th>Rider</th>
-    			            <th>Points</th>
-    			        </tr>
-    				</thead>
-
-
-    				<tbody><%    @womens_leaders.each_with_index do |entries, index| %>
+						<table class ="table table-hover table-condensed;" style="width:300px" >
+							<thead>
+							<tr>
+								<th>Rider</th>
+								<th>Points</th>
+							</tr>
+							</thead>
 
 
-    				    <tr>
-    					    <td style="width:100px"><%= entries["name"] %></td>
-
-    					    <td><%= entries["points"] %></td>
-
-    					</tr>
-    	                 <%end%></tbody>
-
-    	        </table>
-
-    	    </div>
-    	   	<div class = "span5">
-
-    	      <h2>Goat of the Blue Hills</h2>
-
-    	        <table class ="table table-hover table-condensed;" style="width:300px" >
-    	            <thead>
-    			        <tr>
-    			            <th>Rider</th>
-    			            <th>Points</th>
-    			        </tr>
-    				</thead>
+							<tbody><%    @womens_leaders.each_with_index do |entries, index| %>
 
 
-    				<tbody><%    @dirt_leaders.each_with_index do |entries, index| %>
+								<tr>
+									<td style="width:100px"><%= entries["name"] %></td>
+
+									<td><%= entries["points"] %></td>
+
+								</tr>
+							<%end%></tbody>
+
+						</table>
+
+					</div>
+				</div>
+
+				<div class ="row">
+					<div class = "span5">
 
 
-    				    <tr>
-    					    <td style="width:100px"><%= entries["name"] %></td>
+						<h2>Goat of the Blue Hills</h2>
 
-    					    <td><%= entries["points"] %></td>
+						<table class ="table table-hover table-condensed;" style="width:300px" >
+							<thead>
+							<tr>
+								<th>Rider</th>
+								<th>Points</th>
+							</tr>
+							</thead>
 
-    					</tr>
-    	                 <%end%></tbody>
 
-    	        </table>
+							<tbody><%    @dirt_leaders.each_with_index do |entries, index| %>
+
+
+								<tr>
+									<td style="width:100px"><%= entries["name"] %></td>
+
+									<td><%= entries["points"] %></td>
+
+								</tr>
+							<%end%></tbody>
+
+						</table>
+
+
+					</div>
+				</div>
 
     	    </div>
 
@@ -791,4 +799,6 @@
 		</div>
 	</div>
 </div>
+</div>
+	</div>
 
