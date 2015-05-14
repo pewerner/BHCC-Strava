@@ -10,105 +10,120 @@
 
 </script>
 
+<div style ="background-color:#333; height:35px; margin-top:85px;"></div>
+
+<div class = "row" style ="display: table; margin:0 auto; margin-top:-125px;">
+	<div class ="span8" style="margin:0px; width: 100%;"><%= image_tag "BHHC-Banner.png" %></div>
+
+</div>
+
+<div class="navbar">
+
+	<div class="navbar-inner" style="padding-top:-50px; ">
+
+		<div class ="row" style ="display: table; margin:0 auto; >
+			<div class ="span10">
+				<ul id = "myTab" class="nav"  style ="padding-top-20px;" data-tabs="myTab">
+					<li style="font-family: Tahoma, Verdana, Segoe, sans-serif;"><a id ="home" href="/"data-current-page="home">Home</a></li>
+					<li class="active"><a data-toggle="tab" href="#leaderboard">Overall Leaders</a></li>
+					<li><a data-toggle="tab" href="#mens">Men's Points</a></li>
+					<li><a  data-toggle="tab"href="#womens">Women's Points</a></li>
+					<li><a  data-toggle="tab"href="#dirt">Dirt</a></li>
+					<li><a  data-toggle="tab"href="#monthly">Monthly Challenge</a></li>
+				</ul>
+			</div>
+		</div>
+</div>
+
 <div  ng-controller="StravaData">
-    <div class = "row" style = "width:1200px; margin: 0 auto;">
-    <ul id ="myTab" class="nav nav-tabs" data-tabs="myTab">
-      <li class="active"><a data-toggle="tab" href="#leaderboard">Overall Leaders</a></li>
-      <li><a data-toggle="tab" href="#mens">Men's Points</a></li>
-      <li><a  data-toggle="tab"href="#womens">Women's Points</a></li>
-      <li><a  data-toggle="tab"href="#dirt">Dirt</a></li>
-      <li><a  data-toggle="tab"href="#monthly">Monthly Challenge</a></li>
-    </ul>
 
-    </div>
+	<div id="my-tab-content" class="tab-content">
+		<div class="tab-pane active" id="leaderboard">
+    	 <div class = "row" style = "width:1200px; margin: 0 auto;">
+    	    <div class = "span5">
 
-    <div id="my-tab-content" class="tab-content">
-<div class="tab-pane active" id="leaderboard">
-	 <div class = "row" style = "width:1200px; margin: 0 auto;">
-	    <div class = "span5">
+    	      <h2>King of the Blue Hills</h2>
 
-	      <h2>King of the Blue Hills</h2>
-
-            <table class ="table table-hover table-condensed;" style="width:300px" >
-	            <thead>  
-			        <tr> 
-			            <th>Rider</th>  
-			            <th>Points</th>    
-			        </tr>  
-				</thead> 
+    	        <table class ="table table-hover table-condensed;" style="width:300px" >
+    	            <thead>
+    			        <tr>
+    			            <th>Rider</th>
+    			            <th>Points</th>
+    			        </tr>
+    				</thead>
 
 
-				<tbody><%   @mens_leaders.each_with_index do |entries, index| %>
+    				<tbody><%   @mens_leaders.each_with_index do |entries, index| %>
 
 
-				    <tr>
-    				    <td style="width:100px"><%= entries["name"] %></td>
-  
-					    <td><%= entries["points"] %></td>
+    				    <tr>
+    					    <td style="width:100px"><%= entries["name"] %></td>
 
-					</tr>
-                     <%end%></tbody>
+    					    <td><%= entries["points"] %></td>
 
-            </table>
+    					</tr>
+    	                 <%end%></tbody>
 
-	    </div>
+    	        </table>
 
-	    <div class = "span5">
+    	    </div>
 
-	      <h2>Queen of the Blue Hills</h2>
+    	    <div class = "span5">
 
-            <table class ="table table-hover table-condensed;" style="width:300px" >
-	            <thead>  
-			        <tr> 
-			            <th>Rider</th>  
-			            <th>Points</th>    
-			        </tr>  
-				</thead> 
+    	      <h2>Queen of the Blue Hills</h2>
 
-
-				<tbody><%    @womens_leaders.each_with_index do |entries, index| %>
+    	        <table class ="table table-hover table-condensed;" style="width:300px" >
+    	            <thead>
+    			        <tr>
+    			            <th>Rider</th>
+    			            <th>Points</th>
+    			        </tr>
+    				</thead>
 
 
-				    <tr>
-    				    <td style="width:100px"><%= entries["name"] %></td>
-  
-					    <td><%= entries["points"] %></td>
-
-					</tr>
-                     <%end%></tbody>
-
-            </table>
-
-	    </div>
-	   	<div class = "span5">
-
-	      <h2>Goat of the Blue Hills</h2>
-
-            <table class ="table table-hover table-condensed;" style="width:300px" >
-	            <thead>  
-			        <tr> 
-			            <th>Rider</th>  
-			            <th>Points</th>    
-			        </tr>  
-				</thead> 
+    				<tbody><%    @womens_leaders.each_with_index do |entries, index| %>
 
 
-				<tbody><%    @dirt_leaders.each_with_index do |entries, index| %>
+    				    <tr>
+    					    <td style="width:100px"><%= entries["name"] %></td>
+
+    					    <td><%= entries["points"] %></td>
+
+    					</tr>
+    	                 <%end%></tbody>
+
+    	        </table>
+
+    	    </div>
+    	   	<div class = "span5">
+
+    	      <h2>Goat of the Blue Hills</h2>
+
+    	        <table class ="table table-hover table-condensed;" style="width:300px" >
+    	            <thead>
+    			        <tr>
+    			            <th>Rider</th>
+    			            <th>Points</th>
+    			        </tr>
+    				</thead>
 
 
-				    <tr>
-    				    <td style="width:100px"><%= entries["name"] %></td>
-  
-					    <td><%= entries["points"] %></td>
+    				<tbody><%    @dirt_leaders.each_with_index do |entries, index| %>
 
-					</tr>
-                     <%end%></tbody>
 
-            </table>
+    				    <tr>
+    					    <td style="width:100px"><%= entries["name"] %></td>
 
-	    </div> 
+    					    <td><%= entries["points"] %></td>
 
-	</div>    
+    					</tr>
+    	                 <%end%></tbody>
+
+    	        </table>
+
+    	    </div>
+
+    	</div>
 
 
 </div>
