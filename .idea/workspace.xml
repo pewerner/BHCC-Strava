@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b263b3c2-0b09-4a48-9907-b56818e61159" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
-    </list>
+    <list default="true" id="b263b3c2-0b09-4a48-9907-b56818e61159" name="Default" comment="" />
     <ignored path="BHCC-Strava.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -186,8 +184,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="202" />
-    <option name="y" value="194" />
+    <option name="x" value="2171" />
+    <option name="y" value="884" />
     <option name="width" value="1600" />
     <option name="height" value="1053" />
   </component>
@@ -724,15 +722,15 @@
       <workItem from="1431257006124" duration="20534000" />
       <workItem from="1431379525930" duration="307000" />
       <workItem from="1431524898148" duration="4002000" />
-      <workItem from="1431597615632" duration="6736000" />
+      <workItem from="1431597615632" duration="6803000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31746000" />
+    <option name="totallyTimeSpent" value="31813000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="202" y="194" width="1600" height="1053" extended-state="0" />
+    <frame x="2171" y="884" width="1600" height="1053" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
