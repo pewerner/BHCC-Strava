@@ -2,25 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b263b3c2-0b09-4a48-9907-b56818e61159" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/application.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bhcc.css.scss" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bhcc.css.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css.scss" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css.scss" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_flat_0_aaaaaa_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_flat_0_eeeeee_40x100.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_flat_0_eeeeee_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_flat_55_ffffff_40x100.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_flat_55_ffffff_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_flat_75_ffffff_40x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_glass_65_ffffff_1x400.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_highlight-soft_25_0073ea_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_highlight-soft_50_dddddd_1x100.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_0073ea_256x240.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_0073ea_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_454545_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_666666_256x240.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_666666_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_ff0084_256x240.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_ff0084_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_ffffff_256x240.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/jquery-ui.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/jquery-ui.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/jquery-ui.structure.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/assets/stylesheets/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/vendor/assets/stylesheets/jquery-ui.theme.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/bhcc.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bhcc.css.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_flat_0_aaaaaa_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_flat_0_eeeeee_40x100.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_flat_0_eeeeee_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_flat_55_ffffff_40x100.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_flat_55_ffffff_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_flat_75_ffffff_40x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_glass_65_ffffff_1x400.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_highlight-soft_100_f6f6f6_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_highlight-soft_25_0073ea_1x100.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_highlight-soft_25_0073ea_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-bg_highlight-soft_50_dddddd_1x100.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-bg_highlight-soft_50_dddddd_1x100.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_0073ea_256x240.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_0073ea_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_454545_256x240.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_454545_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_666666_256x240.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_666666_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_ff0084_256x240.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_ff0084_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_ffffff_256x240.png" afterPath="$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_ffffff_256x240.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/jquery-ui.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jquery-ui.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/jquery-ui.structure.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jquery-ui.structure.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vendor/assets/stylesheets/jquery-ui.theme.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/jquery-ui.theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
     </list>
     <ignored path="BHCC-Strava.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,18 +43,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.8163266">
-              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.24807057">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ui-icons_0073ea_256x240.png" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_0073ea_256x240.png">
+      <file leaf-file-name="ui-icons_0073ea_256x240.png" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_0073ea_256x240.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
@@ -103,7 +104,7 @@
         </entry>
       </file>
       <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/application.css">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -113,7 +114,7 @@
         </entry>
       </file>
       <file leaf-file-name="bhcc.css.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bhcc.css.scss">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bhcc.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-29.705883">
               <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
@@ -123,7 +124,7 @@
         </entry>
       </file>
       <file leaf-file-name="bootstrap.css.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css.scss">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css.scss">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-5.0833335">
               <caret line="4837" column="22" selection-start-line="4836" selection-start-column="21" selection-end-line="4837" selection-end-column="22" />
@@ -201,8 +202,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1981" />
-    <option name="y" value="301" />
+    <option name="x" value="2133" />
+    <option name="y" value="732" />
     <option name="width" value="1600" />
     <option name="height" value="1053" />
   </component>
@@ -396,6 +397,50 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BHCC-Strava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BHCC-Strava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BHCC-Strava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BHCC-Strava" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -419,7 +464,7 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vendor/assets/stylesheets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/assets/stylesheets" />
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -427,8 +472,8 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/vendor/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/assets/stylesheets" />
+      <recent name="$PROJECT_DIR$/vendor/assets/stylesheets" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts" />
       <recent name="$PROJECT_DIR$/app/assets/javascripts/angular" />
     </key>
@@ -705,11 +750,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31973000" />
+    <option name="totallyTimeSpent" value="32214000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1981" y="301" width="1600" height="1053" extended-state="0" />
-    <editor active="false" />
+    <frame x="2133" y="732" width="1600" height="1053" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -728,7 +773,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -794,7 +839,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -832,7 +877,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
@@ -1122,7 +1167,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bootstrap.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0833335">
           <caret line="4837" column="22" selection-start-line="4836" selection-start-column="21" selection-end-line="4837" selection-end-column="22" />
@@ -1130,7 +1175,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/bhcc.css.scss">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bhcc.css.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-29.705883">
           <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="101" selection-end-column="0" />
@@ -1138,7 +1183,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -1146,17 +1191,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8163266">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/assets/stylesheets/images/ui-icons_0073ea_256x240.png">
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/images/ui-icons_0073ea_256x240.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24807057">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
