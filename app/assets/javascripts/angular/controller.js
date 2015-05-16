@@ -7,8 +7,16 @@ var bhcccApp = angular.module('bhccAPP', [], function() {
 
 });
 
-bhcccApp.controller('StravaData', function($scope, $http) {
+bhcccApp.controller('StravaData', function($scope, $http, $document) {
 
+    $document.ready(function(){
+
+
+        alert("loaded")
+
+
+
+    })
 
     //-- Set the Default dates for Start and end date to the first and last day of the current month
 
@@ -54,6 +62,9 @@ bhcccApp.controller('StravaData', function($scope, $http) {
 
 
     }
+
+
+
 
 
 
