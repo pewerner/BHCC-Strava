@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.1.2'
 
 gem 'rails', '3.2.8'
 
@@ -29,6 +29,7 @@ gem 'jquery-rails'
 gem 'httparty'
 gem 'ngannotate-rails'
 gem 'jquery-ui-rails'
+gem 'therubyracer'
 
 
 group :production do
@@ -42,7 +43,7 @@ group :development do
 
 gem 'sqlite3'
 
-gem 'debugger'
+#gem 'debugger'
 
 end
 
