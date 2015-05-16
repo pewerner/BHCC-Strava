@@ -1,0 +1,1559 @@
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (1ms)  (pid 12143)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (212ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (198ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (192ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (211ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (208ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (203ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (204ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (212ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (203ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (197ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (235ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (195ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (222ms)  (pid 12143)
+Compiled bootstrap.js  (2807ms)  (pid 12143)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (17ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (991ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (212ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (407ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (382ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (178ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (416ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (389ms)  (pid 12143)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 12143)
+Compiled application.js  (8195ms)  (pid 12143)
+Compiled BHCC.css  (0ms)  (pid 12143)
+Compiled JQueryUI/jquery-ui.structure.min.css  (0ms)  (pid 12143)
+Compiled JQueryUI/jquery-ui.theme.css  (0ms)  (pid 12143)
+Compiled JQueryUI/jquery-ui.theme.min.css  (0ms)  (pid 12143)
+Compiled bhcc.css  (1083ms)  (pid 12143)
+Compiled bhcc_accesses.css  (1ms)  (pid 12143)
+Compiled defaultTheme.css  (0ms)  (pid 12143)
+Compiled ride_data.css  (0ms)  (pid 12143)
+Compiled scaffolds.css  (7ms)  (pid 12143)
+Compiled test_app.css  (0ms)  (pid 12143)
+Compiled application.css  (1194ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (1ms)  (pid 12143)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (210ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (202ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (195ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (195ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (227ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (213ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (207ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (214ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (226ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (200ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (223ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (204ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (226ms)  (pid 12143)
+Compiled bootstrap.js  (2880ms)  (pid 12143)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (969ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (196ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (392ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (379ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (180ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (430ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (407ms)  (pid 12143)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 12143)
+Compiled application.js  (6432ms)  (pid 12143)
+Compiled BHCC.css  (0ms)  (pid 12143)
+Compiled JQueryUI/jquery-ui.structure.min.css  (0ms)  (pid 12143)
+Compiled JQueryUI/jquery-ui.theme.css  (0ms)  (pid 12143)
+Compiled JQueryUI/jquery-ui.theme.min.css  (0ms)  (pid 12143)
+Compiled bhcc.css  (1007ms)  (pid 12143)
+Compiled bhcc_accesses.css  (1ms)  (pid 12143)
+Compiled defaultTheme.css  (0ms)  (pid 12143)
+Compiled ride_data.css  (0ms)  (pid 12143)
+Compiled scaffolds.css  (7ms)  (pid 12143)
+Compiled test_app.css  (0ms)  (pid 12143)
+Compiled application.css  (1065ms)  (pid 12143)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (2ms)  (pid 12386)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (203ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (199ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (193ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (211ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (210ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (205ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (208ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (214ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (212ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (198ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (242ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (198ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (224ms)  (pid 12386)
+Compiled bootstrap.js  (2855ms)  (pid 12386)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (1247ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (204ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (411ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (380ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (179ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (392ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (382ms)  (pid 12386)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (233ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (243ms)  (pid 12386)
+Compiled jquery.ui.accordion.js  (761ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (259ms)  (pid 12386)
+Compiled jquery.ui.menu.js  (534ms)  (pid 12386)
+Compiled jquery.ui.autocomplete.js  (804ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (237ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (378ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (208ms)  (pid 12386)
+Compiled jquery.ui.draggable.js  (520ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (285ms)  (pid 12386)
+Compiled jquery.ui.dialog.js  (1101ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (278ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (288ms)  (pid 12386)
+Compiled jquery.ui.effect-blind.js  (490ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (202ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (194ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (196ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (199ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (190ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (195ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (192ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (194ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (226ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (197ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (193ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (192ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (215ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (224ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (250ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (311ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (268ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (258ms)  (pid 12386)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (229ms)  (pid 12386)
+Compiled jquery.ui.all.js  (8683ms)  (pid 12386)
+Compiled application.js  (16452ms)  (pid 12386)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (1ms)  (pid 12511)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (205ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (200ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (193ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (210ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (209ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (205ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (204ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (228ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (204ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (201ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (238ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (215ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (220ms)  (pid 12511)
+Compiled bootstrap.js  (2807ms)  (pid 12511)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (966ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (197ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (381ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (378ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (179ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (378ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (378ms)  (pid 12511)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (222ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (240ms)  (pid 12511)
+Compiled jquery.ui.accordion.js  (714ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (238ms)  (pid 12511)
+Compiled jquery.ui.menu.js  (534ms)  (pid 12511)
+Compiled jquery.ui.autocomplete.js  (802ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (240ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (450ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (216ms)  (pid 12511)
+Compiled jquery.ui.draggable.js  (512ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (290ms)  (pid 12511)
+Compiled jquery.ui.dialog.js  (1089ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (253ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (295ms)  (pid 12511)
+Compiled jquery.ui.effect-blind.js  (503ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (201ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (193ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (195ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (199ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (188ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (194ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (192ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (194ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (225ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (197ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (193ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (192ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (219ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (229ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (257ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (315ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (241ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (266ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (232ms)  (pid 12511)
+Compiled jquery.ui.all.js  (8566ms)  (pid 12511)
+Compiled application.js  (14528ms)  (pid 12511)
+Compiled BHCC.css  (0ms)  (pid 12511)
+Compiled bhcc.css  (1059ms)  (pid 12511)
+Compiled bhcc_accesses.css  (1ms)  (pid 12511)
+Compiled defaultTheme.css  (0ms)  (pid 12511)
+Compiled jquery-ui.structure.min.css  (0ms)  (pid 12511)
+Compiled jquery-ui.theme.css  (0ms)  (pid 12511)
+Compiled jquery-ui.theme.min.css  (0ms)  (pid 12511)
+Compiled ride_data.css  (1ms)  (pid 12511)
+Compiled scaffolds.css  (8ms)  (pid 12511)
+Compiled test_app.css  (1ms)  (pid 12511)
+Compiled jquery.ui.core.css  (1ms)  (pid 12511)
+Compiled jquery.ui.theme.css  (90ms)  (pid 12511)
+Compiled jquery.ui.accordion.css  (99ms)  (pid 12511)
+Compiled jquery.ui.menu.css  (3ms)  (pid 12511)
+Compiled jquery.ui.autocomplete.css  (12ms)  (pid 12511)
+Compiled jquery.ui.button.css  (4ms)  (pid 12511)
+Compiled jquery.ui.datepicker.css  (6ms)  (pid 12511)
+Compiled jquery.ui.resizable.css  (4ms)  (pid 12511)
+Compiled jquery.ui.dialog.css  (15ms)  (pid 12511)
+Compiled jquery.ui.progressbar.css  (6ms)  (pid 12511)
+Compiled jquery.ui.selectable.css  (3ms)  (pid 12511)
+Compiled jquery.ui.slider.css  (3ms)  (pid 12511)
+Compiled jquery.ui.spinner.css  (5ms)  (pid 12511)
+Compiled jquery.ui.tabs.css  (3ms)  (pid 12511)
+Compiled jquery.ui.tooltip.css  (3ms)  (pid 12511)
+Compiled jquery.ui.base.css  (259ms)  (pid 12511)
+Compiled jquery.ui.all.css  (267ms)  (pid 12511)
+Compiled application.css  (1438ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (1ms)  (pid 12511)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (207ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (199ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (192ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (211ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (208ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (204ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (203ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (228ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (204ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (197ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (233ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (196ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (219ms)  (pid 12511)
+Compiled bootstrap.js  (2773ms)  (pid 12511)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (950ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (195ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (385ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (378ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (179ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (379ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (379ms)  (pid 12511)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (223ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (240ms)  (pid 12511)
+Compiled jquery.ui.accordion.js  (717ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (236ms)  (pid 12511)
+Compiled jquery.ui.menu.js  (491ms)  (pid 12511)
+Compiled jquery.ui.autocomplete.js  (762ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (238ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (380ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (209ms)  (pid 12511)
+Compiled jquery.ui.draggable.js  (511ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (285ms)  (pid 12511)
+Compiled jquery.ui.dialog.js  (1067ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (252ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (286ms)  (pid 12511)
+Compiled jquery.ui.effect-blind.js  (488ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (202ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (193ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (194ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (199ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (188ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (194ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (192ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (193ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (226ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (197ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (193ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (194ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (203ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (237ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (252ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (301ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (246ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (258ms)  (pid 12511)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (228ms)  (pid 12511)
+Compiled jquery.ui.all.js  (8373ms)  (pid 12511)
+Compiled application.js  (14284ms)  (pid 12511)
+Compiled BHCC.css  (0ms)  (pid 12511)
+Compiled bhcc.css  (1008ms)  (pid 12511)
+Compiled bhcc_accesses.css  (1ms)  (pid 12511)
+Compiled defaultTheme.css  (0ms)  (pid 12511)
+Compiled jquery-ui.structure.min.css  (0ms)  (pid 12511)
+Compiled jquery-ui.theme.css  (0ms)  (pid 12511)
+Compiled jquery-ui.theme.min.css  (0ms)  (pid 12511)
+Compiled ride_data.css  (1ms)  (pid 12511)
+Compiled scaffolds.css  (8ms)  (pid 12511)
+Compiled test_app.css  (1ms)  (pid 12511)
+Compiled jquery.ui.core.css  (1ms)  (pid 12511)
+Compiled jquery.ui.theme.css  (9ms)  (pid 12511)
+Compiled jquery.ui.accordion.css  (17ms)  (pid 12511)
+Compiled jquery.ui.menu.css  (3ms)  (pid 12511)
+Compiled jquery.ui.autocomplete.css  (12ms)  (pid 12511)
+Compiled jquery.ui.button.css  (4ms)  (pid 12511)
+Compiled jquery.ui.datepicker.css  (5ms)  (pid 12511)
+Compiled jquery.ui.resizable.css  (3ms)  (pid 12511)
+Compiled jquery.ui.dialog.css  (13ms)  (pid 12511)
+Compiled jquery.ui.progressbar.css  (3ms)  (pid 12511)
+Compiled jquery.ui.selectable.css  (3ms)  (pid 12511)
+Compiled jquery.ui.slider.css  (5ms)  (pid 12511)
+Compiled jquery.ui.spinner.css  (6ms)  (pid 12511)
+Compiled jquery.ui.tabs.css  (4ms)  (pid 12511)
+Compiled jquery.ui.tooltip.css  (3ms)  (pid 12511)
+Compiled jquery.ui.base.css  (161ms)  (pid 12511)
+Compiled jquery.ui.all.css  (168ms)  (pid 12511)
+Compiled application.css  (1236ms)  (pid 12511)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (2ms)  (pid 21132)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (192ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (202ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (195ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (215ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (210ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (207ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (224ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (216ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (206ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (200ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (222ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (198ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (222ms)  (pid 21132)
+Compiled bootstrap.js  (2865ms)  (pid 21132)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (988ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (198ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (436ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (384ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (180ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (384ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (384ms)  (pid 21132)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (237ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (243ms)  (pid 21132)
+Compiled jquery.ui.accordion.js  (758ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (239ms)  (pid 21132)
+Compiled jquery.ui.menu.js  (497ms)  (pid 21132)
+Compiled jquery.ui.autocomplete.js  (793ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (242ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (389ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (211ms)  (pid 21132)
+Compiled jquery.ui.draggable.js  (504ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (294ms)  (pid 21132)
+Compiled jquery.ui.dialog.js  (1089ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (253ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (291ms)  (pid 21132)
+Compiled jquery.ui.effect-blind.js  (519ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (205ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (198ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (199ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (215ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (191ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (200ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (196ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (198ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (232ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (203ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (201ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (199ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (208ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (228ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (259ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (312ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (243ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (263ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (233ms)  (pid 21132)
+Compiled jquery.ui.all.js  (8648ms)  (pid 21132)
+Compiled application.js  (16375ms)  (pid 21132)
+Compiled bhcc.css  (54ms)  (pid 21132)
+Compiled bootstrap.css  (895ms)  (pid 21132)
+Compiled jquery-ui.css  (0ms)  (pid 21132)
+Compiled jquery-ui.structure.css  (0ms)  (pid 21132)
+Compiled jquery-ui.theme.css  (0ms)  (pid 21132)
+Compiled application.css  (1048ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (1ms)  (pid 21132)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (192ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (225ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (195ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (215ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (210ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (208ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (206ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (214ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (207ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (199ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (238ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (197ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (224ms)  (pid 21132)
+Compiled bootstrap.js  (2819ms)  (pid 21132)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (974ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (198ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (384ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (384ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (181ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (386ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (388ms)  (pid 21132)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (225ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (247ms)  (pid 21132)
+Compiled jquery.ui.accordion.js  (774ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (246ms)  (pid 21132)
+Compiled jquery.ui.menu.js  (509ms)  (pid 21132)
+Compiled jquery.ui.autocomplete.js  (786ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (243ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (404ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (211ms)  (pid 21132)
+Compiled jquery.ui.draggable.js  (521ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (291ms)  (pid 21132)
+Compiled jquery.ui.dialog.js  (1086ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (253ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (292ms)  (pid 21132)
+Compiled jquery.ui.effect-blind.js  (498ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (206ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (195ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (197ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (201ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (191ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (198ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (195ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (197ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (228ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (199ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (196ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (196ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (208ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (243ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (260ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (308ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (258ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (271ms)  (pid 21132)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (235ms)  (pid 21132)
+Compiled jquery.ui.all.js  (8618ms)  (pid 21132)
+Compiled application.js  (14726ms)  (pid 21132)
+Compiled bhcc.css  (23ms)  (pid 21132)
+Compiled bootstrap.css  (1166ms)  (pid 21132)
+Compiled jquery-ui.css  (0ms)  (pid 21132)
+Compiled jquery-ui.structure.css  (0ms)  (pid 21132)
+Compiled jquery-ui.theme.css  (0ms)  (pid 21132)
+Compiled application.css  (1231ms)  (pid 21132)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (2ms)  (pid 21424)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (201ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (208ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (194ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (212ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (208ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (206ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (221ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (212ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (204ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (201ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (223ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (201ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (224ms)  (pid 21424)
+Compiled bootstrap.js  (2858ms)  (pid 21424)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (1064ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (197ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (406ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (382ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (180ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (381ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (399ms)  (pid 21424)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (245ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (240ms)  (pid 21424)
+Compiled jquery.ui.accordion.js  (758ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (239ms)  (pid 21424)
+Compiled jquery.ui.menu.js  (493ms)  (pid 21424)
+Compiled jquery.ui.autocomplete.js  (775ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (246ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (380ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (207ms)  (pid 21424)
+Compiled jquery.ui.draggable.js  (524ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (290ms)  (pid 21424)
+Compiled jquery.ui.dialog.js  (1099ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (252ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (286ms)  (pid 21424)
+Compiled jquery.ui.effect-blind.js  (491ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (202ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (193ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (196ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (211ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (188ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (195ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (192ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (195ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (226ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (198ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (193ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (192ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (205ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (224ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (253ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (299ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (235ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (261ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (230ms)  (pid 21424)
+Compiled jquery.ui.all.js  (8523ms)  (pid 21424)
+Compiled application.js  (15668ms)  (pid 21424)
+Compiled bhcc.css  (59ms)  (pid 21424)
+Compiled bootstrap.css  (874ms)  (pid 21424)
+Compiled jquery-ui.css  (0ms)  (pid 21424)
+Compiled jquery-ui.structure.css  (0ms)  (pid 21424)
+Compiled jquery-ui.theme.css  (0ms)  (pid 21424)
+Compiled application.css  (1056ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (2ms)  (pid 21424)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (190ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (199ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (194ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (212ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (208ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (204ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (202ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (212ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (203ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (197ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (242ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (196ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (219ms)  (pid 21424)
+Compiled bootstrap.js  (2831ms)  (pid 21424)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (957ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (195ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (403ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (386ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (180ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (383ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (378ms)  (pid 21424)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (222ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (240ms)  (pid 21424)
+Compiled jquery.ui.accordion.js  (733ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (236ms)  (pid 21424)
+Compiled jquery.ui.menu.js  (492ms)  (pid 21424)
+Compiled jquery.ui.autocomplete.js  (761ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (236ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (374ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (207ms)  (pid 21424)
+Compiled jquery.ui.draggable.js  (524ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (283ms)  (pid 21424)
+Compiled jquery.ui.dialog.js  (1096ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (249ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (289ms)  (pid 21424)
+Compiled jquery.ui.effect-blind.js  (492ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (201ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (193ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (195ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (199ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (189ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (196ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (192ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (196ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (225ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (202ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (196ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (197ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (209ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (265ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (266ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (300ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (246ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (260ms)  (pid 21424)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (227ms)  (pid 21424)
+Compiled jquery.ui.all.js  (8581ms)  (pid 21424)
+Compiled application.js  (14859ms)  (pid 21424)
+Compiled bhcc.css  (22ms)  (pid 21424)
+Compiled bootstrap.css  (871ms)  (pid 21424)
+Compiled jquery-ui.css  (0ms)  (pid 21424)
+Compiled jquery-ui.structure.css  (0ms)  (pid 21424)
+Compiled jquery-ui.theme.css  (0ms)  (pid 21424)
+Compiled application.css  (920ms)  (pid 21424)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (1ms)  (pid 22118)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (190ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (198ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (192ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (214ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (212ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (206ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (225ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (219ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (204ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (196ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (219ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (196ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (222ms)  (pid 22118)
+Compiled bootstrap.js  (2861ms)  (pid 22118)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (979ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (202ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (408ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (386ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (179ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (382ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (384ms)  (pid 22118)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (225ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (241ms)  (pid 22118)
+Compiled jquery.ui.accordion.js  (768ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (238ms)  (pid 22118)
+Compiled jquery.ui.menu.js  (491ms)  (pid 22118)
+Compiled jquery.ui.autocomplete.js  (765ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (236ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (375ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (207ms)  (pid 22118)
+Compiled jquery.ui.draggable.js  (532ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (285ms)  (pid 22118)
+Compiled jquery.ui.dialog.js  (1116ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (247ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (289ms)  (pid 22118)
+Compiled jquery.ui.effect-blind.js  (515ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (204ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (192ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (195ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (210ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (188ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (194ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (192ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (194ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (223ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (196ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (196ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (198ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (207ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (223ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (251ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (300ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (232ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (257ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (230ms)  (pid 22118)
+Compiled jquery.ui.all.js  (8544ms)  (pid 22118)
+Compiled application.js  (15713ms)  (pid 22118)
+Compiled bhcc.css  (54ms)  (pid 22118)
+Compiled bootstrap.css  (871ms)  (pid 22118)
+Compiled jquery-ui.css  (0ms)  (pid 22118)
+Compiled jquery-ui.structure.css  (0ms)  (pid 22118)
+Compiled jquery-ui.theme.css  (0ms)  (pid 22118)
+Compiled application.css  (1055ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (1ms)  (pid 22118)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (188ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (197ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (191ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (210ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (206ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (203ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (223ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (211ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (202ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (196ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (234ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (194ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (220ms)  (pid 22118)
+Compiled bootstrap.js  (2781ms)  (pid 22118)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (949ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (195ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (378ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (377ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (178ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (378ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (377ms)  (pid 22118)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (224ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (238ms)  (pid 22118)
+Compiled jquery.ui.accordion.js  (715ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (235ms)  (pid 22118)
+Compiled jquery.ui.menu.js  (488ms)  (pid 22118)
+Compiled jquery.ui.autocomplete.js  (756ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (234ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (377ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (207ms)  (pid 22118)
+Compiled jquery.ui.draggable.js  (510ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (286ms)  (pid 22118)
+Compiled jquery.ui.dialog.js  (1067ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (248ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (289ms)  (pid 22118)
+Compiled jquery.ui.effect-blind.js  (492ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (205ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (193ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (195ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (219ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (195ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (204ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (254ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (197ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (229ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (198ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (195ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (199ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (207ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (258ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (269ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (319ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (260ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (275ms)  (pid 22118)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (246ms)  (pid 22118)
+Compiled jquery.ui.all.js  (8614ms)  (pid 22118)
+Compiled application.js  (14522ms)  (pid 22118)
+Compiled bhcc.css  (66ms)  (pid 22118)
+Compiled bootstrap.css  (880ms)  (pid 22118)
+Compiled jquery-ui.css  (0ms)  (pid 22118)
+Compiled jquery-ui.structure.css  (0ms)  (pid 22118)
+Compiled jquery-ui.theme.css  (0ms)  (pid 22118)
+Compiled application.css  (997ms)  (pid 22118)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (2ms)  (pid 22420)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (200ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (200ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (198ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (227ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (216ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (205ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (220ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (211ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (203ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (197ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (218ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (197ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (222ms)  (pid 22420)
+Compiled bootstrap.js  (2828ms)  (pid 22420)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (975ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (198ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (405ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (384ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (186ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (390ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (378ms)  (pid 22420)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (221ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (240ms)  (pid 22420)
+Compiled jquery.ui.accordion.js  (783ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (238ms)  (pid 22420)
+Compiled jquery.ui.menu.js  (493ms)  (pid 22420)
+Compiled jquery.ui.autocomplete.js  (788ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (238ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (376ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (208ms)  (pid 22420)
+Compiled jquery.ui.draggable.js  (497ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (285ms)  (pid 22420)
+Compiled jquery.ui.dialog.js  (1097ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (248ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (289ms)  (pid 22420)
+Compiled jquery.ui.effect-blind.js  (491ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (201ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (193ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (195ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (211ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (188ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (196ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (192ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (194ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (225ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (197ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (193ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (191ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (204ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (226ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (256ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (299ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (234ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (256ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (228ms)  (pid 22420)
+Compiled jquery.ui.all.js  (8588ms)  (pid 22420)
+Compiled application.js  (15491ms)  (pid 22420)
+Compiled bhcc.css  (53ms)  (pid 22420)
+Compiled bootstrap.css  (864ms)  (pid 22420)
+Compiled jquery-ui.css  (0ms)  (pid 22420)
+Compiled jquery-ui.structure.css  (0ms)  (pid 22420)
+Compiled jquery-ui.theme.css  (0ms)  (pid 22420)
+Compiled application.css  (991ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/application.js
+ng-prepare
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery.js
+Compiled jquery.js  (2ms)  (pid 22420)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/bootstrap-sass-2.3.1.2/vendor/assets/javascripts/bootstrap.js
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-transition.js
+Compiled bootstrap-transition.js  (354ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-affix.js
+Compiled bootstrap-affix.js  (228ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-alert.js
+Compiled bootstrap-alert.js  (205ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-button.js
+Compiled bootstrap-button.js  (219ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-carousel.js
+Compiled bootstrap-carousel.js  (223ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-collapse.js
+Compiled bootstrap-collapse.js  (210ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-dropdown.js
+Compiled bootstrap-dropdown.js  (208ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-modal.js
+Compiled bootstrap-modal.js  (216ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-scrollspy.js
+Compiled bootstrap-scrollspy.js  (208ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tab.js
+Compiled bootstrap-tab.js  (223ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-tooltip.js
+Compiled bootstrap-tooltip.js  (248ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-popover.js
+Compiled bootstrap-popover.js  (210ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bootstrap-typeahead.js
+Compiled bootstrap-typeahead.js  (230ms)  (pid 22420)
+Compiled bootstrap.js  (3436ms)  (pid 22420)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery_ujs.js
+Compiled jquery_ujs.js  (0ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/angular.js
+Compiled angular/angular.js  (1039ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/angular/controller.js
+Compiled angular/controller.js  (220ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc.js.coffee
+Compiled bhcc.js  (422ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/bhcc_accesses.js.coffee
+Compiled bhcc_accesses.js  (398ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/display.js.erb
+Compiled display.js  (190ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/ride_data.js.coffee
+Compiled ride_data.js  (422ms)  (pid 22420)
+ng-process: /Users/petewerner/sites/BHCC-Strava/app/assets/javascripts/test_app.js.coffee
+Compiled test_app.js  (390ms)  (pid 22420)
+ng-ignore: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-rails-2.2.1/vendor/assets/javascripts/jquery-ui.js
+Compiled jquery-ui.js  (5ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.all.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.accordion.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.core.js
+Compiled jquery.ui.core.js  (230ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.widget.js
+Compiled jquery.ui.widget.js  (267ms)  (pid 22420)
+Compiled jquery.ui.accordion.js  (793ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.autocomplete.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.menu.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.position.js
+Compiled jquery.ui.position.js  (255ms)  (pid 22420)
+Compiled jquery.ui.menu.js  (521ms)  (pid 22420)
+Compiled jquery.ui.autocomplete.js  (802ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.button.js
+Compiled jquery.ui.button.js  (253ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.datepicker.js
+Compiled jquery.ui.datepicker.js  (402ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.dialog.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.draggable.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.mouse.js
+Compiled jquery.ui.mouse.js  (228ms)  (pid 22420)
+Compiled jquery.ui.draggable.js  (572ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.resizable.js
+Compiled jquery.ui.resizable.js  (303ms)  (pid 22420)
+Compiled jquery.ui.dialog.js  (1244ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.droppable.js
+Compiled jquery.ui.droppable.js  (268ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-blind.js
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect.js
+Compiled jquery.ui.effect.js  (306ms)  (pid 22420)
+Compiled jquery.ui.effect-blind.js  (569ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-bounce.js
+Compiled jquery.ui.effect-bounce.js  (243ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-clip.js
+Compiled jquery.ui.effect-clip.js  (194ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-drop.js
+Compiled jquery.ui.effect-drop.js  (199ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-explode.js
+Compiled jquery.ui.effect-explode.js  (210ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fade.js
+Compiled jquery.ui.effect-fade.js  (223ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-fold.js
+Compiled jquery.ui.effect-fold.js  (202ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-highlight.js
+Compiled jquery.ui.effect-highlight.js  (196ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-pulsate.js
+Compiled jquery.ui.effect-pulsate.js  (196ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-scale.js
+Compiled jquery.ui.effect-scale.js  (235ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-shake.js
+Compiled jquery.ui.effect-shake.js  (201ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-slide.js
+Compiled jquery.ui.effect-slide.js  (193ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.effect-transfer.js
+Compiled jquery.ui.effect-transfer.js  (193ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.progressbar.js
+Compiled jquery.ui.progressbar.js  (219ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.selectable.js
+Compiled jquery.ui.selectable.js  (261ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.slider.js
+Compiled jquery.ui.slider.js  (257ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.sortable.js
+Compiled jquery.ui.sortable.js  (310ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.spinner.js
+Compiled jquery.ui.spinner.js  (282ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tabs.js
+Compiled jquery.ui.tabs.js  (286ms)  (pid 22420)
+ng-process: /Users/petewerner/.rvm/gems/ruby-1.9.3-p551/gems/jquery-ui-rails-4.1.2/app/assets/javascripts/jquery.ui.tooltip.js
+Compiled jquery.ui.tooltip.js  (244ms)  (pid 22420)
+Compiled jquery.ui.all.js  (9681ms)  (pid 22420)
+Compiled application.js  (17002ms)  (pid 22420)
+Compiled bhcc.css  (53ms)  (pid 22420)
+Compiled bootstrap.css  (872ms)  (pid 22420)
+Compiled jquery-ui.css  (0ms)  (pid 22420)
+Compiled jquery-ui.structure.css  (0ms)  (pid 22420)
+Compiled jquery-ui.theme.css  (0ms)  (pid 22420)
+Compiled application.css  (1015ms)  (pid 22420)
