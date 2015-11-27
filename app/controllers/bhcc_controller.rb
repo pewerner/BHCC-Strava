@@ -165,7 +165,7 @@ def leaderboard()
 	@buckHardWayDataPointValue = 18
 
 
-    url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
+    url = " https://www.strava.com/api/v3/segments/10827686/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @accessRoadData = JSON.parse(user_response)
@@ -174,7 +174,7 @@ def leaderboard()
 
 
 
-    url = " https://www.strava.com/api/v3/segments/663022/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F&date_range=this_year"
+    url = " https://www.strava.com/api/v3/segments/10827686/leaderboard?access_token=ed8f4919f42c9d737cf4a314b7867cd7cddc55ce&club_id=678&gender=F&date_range=this_year"
     user_response = HTTParty.get url,:format  =>"json"
 
     @accessRoadDataFemale = JSON.parse(user_response)
